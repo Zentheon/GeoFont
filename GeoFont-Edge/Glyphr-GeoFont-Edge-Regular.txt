@@ -106,7 +106,7 @@
 				"objtype": "guide",
 				"type": "vertical",
 				"name": "rightside",
-				"location": 50,
+				"location": 550,
 				"angle": false,
 				"color": "rgb(204,81,0)",
 				"visible": true,
@@ -139,7 +139,7 @@
 				"objtype": "guide",
 				"type": "vertical",
 				"name": "max",
-				"location": 0,
+				"location": 500,
 				"angle": false,
 				"color": "rgb(255,193,153)",
 				"visible": true,
@@ -221,7 +221,7 @@
 		"manufacturerURL": "\"\"",
 		"license": "OFL",
 		"licenseURL": "https://github.com/Xetheon/GeoFont/blob/main/LICENSE",
-		"version": "1.0",
+		"version": "1.1",
 		"description": "A simple font centered around sharp geometry.",
 		"copyright": "Copyright (c) 2023 Xetheon",
 		"trademark": "\"\"",
@@ -11521,8 +11521,8 @@
 			"maxes": {
 				"xmax": 100,
 				"xmin": 0,
-				"ymax": 500,
-				"ymin": 0
+				"ymax": 600,
+				"ymin": 100
 			},
 			"shapes": [
 				{
@@ -11536,21 +11536,21 @@
 								"P": {
 									"objtype": "coord",
 									"x": 0,
-									"y": 0,
+									"y": 100,
 									"xlock": false,
 									"ylock": false
 								},
 								"H1": {
 									"objtype": "coord",
 									"x": 0,
-									"y": 0,
+									"y": 100,
 									"xlock": false,
 									"ylock": false
 								},
 								"H2": {
 									"objtype": "coord",
 									"x": 0,
-									"y": 0,
+									"y": 100,
 									"xlock": false,
 									"ylock": false
 								},
@@ -11564,21 +11564,49 @@
 								"P": {
 									"objtype": "coord",
 									"x": 0,
-									"y": 100,
+									"y": 200,
 									"xlock": false,
 									"ylock": false
 								},
 								"H1": {
 									"objtype": "coord",
 									"x": 0,
-									"y": 100,
+									"y": 200,
 									"xlock": false,
 									"ylock": false
 								},
 								"H2": {
 									"objtype": "coord",
 									"x": 0,
-									"y": 100,
+									"y": 200,
+									"xlock": false,
+									"ylock": false
+								},
+								"Q": false,
+								"type": "corner",
+								"useh1": false,
+								"useh2": false
+							},
+							{
+								"objtype": "pathpoint",
+								"P": {
+									"objtype": "coord",
+									"x": 100,
+									"y": 200,
+									"xlock": false,
+									"ylock": false
+								},
+								"H1": {
+									"objtype": "coord",
+									"x": 100,
+									"y": 200,
+									"xlock": false,
+									"ylock": false
+								},
+								"H2": {
+									"objtype": "coord",
+									"x": 100,
+									"y": 200,
 									"xlock": false,
 									"ylock": false
 								},
@@ -11607,34 +11635,6 @@
 									"objtype": "coord",
 									"x": 100,
 									"y": 100,
-									"xlock": false,
-									"ylock": false
-								},
-								"Q": false,
-								"type": "corner",
-								"useh1": false,
-								"useh2": false
-							},
-							{
-								"objtype": "pathpoint",
-								"P": {
-									"objtype": "coord",
-									"x": 100,
-									"y": 0,
-									"xlock": false,
-									"ylock": false
-								},
-								"H1": {
-									"objtype": "coord",
-									"x": 100,
-									"y": 0,
-									"xlock": false,
-									"ylock": false
-								},
-								"H2": {
-									"objtype": "coord",
-									"x": 100,
-									"y": 0,
 									"xlock": false,
 									"ylock": false
 								},
@@ -11648,8 +11648,8 @@
 						"maxes": {
 							"xmax": 100,
 							"xmin": 0,
-							"ymax": 100,
-							"ymin": 0
+							"ymax": 200,
+							"ymin": 100
 						}
 					},
 					"visible": true,
@@ -11670,21 +11670,21 @@
 								"P": {
 									"objtype": "coord",
 									"x": 0,
-									"y": 400,
+									"y": 500,
 									"xlock": false,
 									"ylock": false
 								},
 								"H1": {
 									"objtype": "coord",
 									"x": 0,
-									"y": 400,
+									"y": 500,
 									"xlock": false,
 									"ylock": false
 								},
 								"H2": {
 									"objtype": "coord",
 									"x": 0,
-									"y": 400,
+									"y": 500,
 									"xlock": false,
 									"ylock": false
 								},
@@ -11698,21 +11698,49 @@
 								"P": {
 									"objtype": "coord",
 									"x": 0,
-									"y": 500,
+									"y": 600,
 									"xlock": false,
 									"ylock": false
 								},
 								"H1": {
 									"objtype": "coord",
 									"x": 0,
-									"y": 500,
+									"y": 600,
 									"xlock": false,
 									"ylock": false
 								},
 								"H2": {
 									"objtype": "coord",
 									"x": 0,
-									"y": 500,
+									"y": 600,
+									"xlock": false,
+									"ylock": false
+								},
+								"Q": false,
+								"type": "corner",
+								"useh1": false,
+								"useh2": false
+							},
+							{
+								"objtype": "pathpoint",
+								"P": {
+									"objtype": "coord",
+									"x": 100,
+									"y": 600,
+									"xlock": false,
+									"ylock": false
+								},
+								"H1": {
+									"objtype": "coord",
+									"x": 100,
+									"y": 600,
+									"xlock": false,
+									"ylock": false
+								},
+								"H2": {
+									"objtype": "coord",
+									"x": 100,
+									"y": 600,
 									"xlock": false,
 									"ylock": false
 								},
@@ -11741,34 +11769,6 @@
 									"objtype": "coord",
 									"x": 100,
 									"y": 500,
-									"xlock": false,
-									"ylock": false
-								},
-								"Q": false,
-								"type": "corner",
-								"useh1": false,
-								"useh2": false
-							},
-							{
-								"objtype": "pathpoint",
-								"P": {
-									"objtype": "coord",
-									"x": 100,
-									"y": 400,
-									"xlock": false,
-									"ylock": false
-								},
-								"H1": {
-									"objtype": "coord",
-									"x": 100,
-									"y": 400,
-									"xlock": false,
-									"ylock": false
-								},
-								"H2": {
-									"objtype": "coord",
-									"x": 100,
-									"y": 400,
 									"xlock": false,
 									"ylock": false
 								},
@@ -11782,8 +11782,8 @@
 						"maxes": {
 							"xmax": 100,
 							"xmin": 0,
-							"ymax": 500,
-							"ymin": 400
+							"ymax": 600,
+							"ymin": 500
 						}
 					},
 					"visible": true,
@@ -11811,8 +11811,8 @@
 			"maxes": {
 				"xmax": 100,
 				"xmin": 0,
-				"ymax": 500,
-				"ymin": -100
+				"ymax": 600,
+				"ymin": 0
 			},
 			"shapes": [
 				{
@@ -11826,21 +11826,21 @@
 								"P": {
 									"objtype": "coord",
 									"x": 0,
-									"y": 100,
+									"y": 200,
 									"xlock": false,
 									"ylock": false
 								},
 								"H1": {
 									"objtype": "coord",
 									"x": 0,
-									"y": 100,
+									"y": 200,
 									"xlock": false,
 									"ylock": false
 								},
 								"H2": {
 									"objtype": "coord",
 									"x": 0,
-									"y": 100,
+									"y": 200,
 									"xlock": false,
 									"ylock": false
 								},
@@ -11854,21 +11854,21 @@
 								"P": {
 									"objtype": "coord",
 									"x": 100,
-									"y": 100,
+									"y": 200,
 									"xlock": false,
 									"ylock": false
 								},
 								"H1": {
 									"objtype": "coord",
 									"x": 100,
-									"y": 100,
+									"y": 200,
 									"xlock": false,
 									"ylock": false
 								},
 								"H2": {
 									"objtype": "coord",
 									"x": 100,
-									"y": 100,
+									"y": 200,
 									"xlock": false,
 									"ylock": false
 								},
@@ -11882,21 +11882,21 @@
 								"P": {
 									"objtype": "coord",
 									"x": 100,
-									"y": -100,
+									"y": 0,
 									"xlock": false,
 									"ylock": false
 								},
 								"H1": {
 									"objtype": "coord",
 									"x": 100,
-									"y": -100,
+									"y": 0,
 									"xlock": false,
 									"ylock": false
 								},
 								"H2": {
 									"objtype": "coord",
 									"x": 100,
-									"y": -100,
+									"y": 0,
 									"xlock": false,
 									"ylock": false
 								},
@@ -11910,21 +11910,21 @@
 								"P": {
 									"objtype": "coord",
 									"x": 0,
-									"y": -100,
+									"y": 0,
 									"xlock": false,
 									"ylock": false
 								},
 								"H1": {
 									"objtype": "coord",
 									"x": 0,
-									"y": -100,
+									"y": 0,
 									"xlock": false,
 									"ylock": false
 								},
 								"H2": {
 									"objtype": "coord",
 									"x": 0,
-									"y": -100,
+									"y": 0,
 									"xlock": false,
 									"ylock": false
 								},
@@ -11938,8 +11938,8 @@
 						"maxes": {
 							"xmax": 100,
 							"xmin": 0,
-							"ymax": 100,
-							"ymin": -100
+							"ymax": 200,
+							"ymin": 0
 						}
 					},
 					"visible": true,
@@ -11960,21 +11960,21 @@
 								"P": {
 									"objtype": "coord",
 									"x": 0,
-									"y": 400,
+									"y": 500,
 									"xlock": false,
 									"ylock": false
 								},
 								"H1": {
 									"objtype": "coord",
 									"x": 0,
-									"y": 400,
+									"y": 500,
 									"xlock": false,
 									"ylock": false
 								},
 								"H2": {
 									"objtype": "coord",
 									"x": 0,
-									"y": 400,
+									"y": 500,
 									"xlock": false,
 									"ylock": false
 								},
@@ -11988,21 +11988,49 @@
 								"P": {
 									"objtype": "coord",
 									"x": 0,
-									"y": 500,
+									"y": 600,
 									"xlock": false,
 									"ylock": false
 								},
 								"H1": {
 									"objtype": "coord",
 									"x": 0,
-									"y": 500,
+									"y": 600,
 									"xlock": false,
 									"ylock": false
 								},
 								"H2": {
 									"objtype": "coord",
 									"x": 0,
-									"y": 500,
+									"y": 600,
+									"xlock": false,
+									"ylock": false
+								},
+								"Q": false,
+								"type": "corner",
+								"useh1": false,
+								"useh2": false
+							},
+							{
+								"objtype": "pathpoint",
+								"P": {
+									"objtype": "coord",
+									"x": 100,
+									"y": 600,
+									"xlock": false,
+									"ylock": false
+								},
+								"H1": {
+									"objtype": "coord",
+									"x": 100,
+									"y": 600,
+									"xlock": false,
+									"ylock": false
+								},
+								"H2": {
+									"objtype": "coord",
+									"x": 100,
+									"y": 600,
 									"xlock": false,
 									"ylock": false
 								},
@@ -12031,34 +12059,6 @@
 									"objtype": "coord",
 									"x": 100,
 									"y": 500,
-									"xlock": false,
-									"ylock": false
-								},
-								"Q": false,
-								"type": "corner",
-								"useh1": false,
-								"useh2": false
-							},
-							{
-								"objtype": "pathpoint",
-								"P": {
-									"objtype": "coord",
-									"x": 100,
-									"y": 400,
-									"xlock": false,
-									"ylock": false
-								},
-								"H1": {
-									"objtype": "coord",
-									"x": 100,
-									"y": 400,
-									"xlock": false,
-									"ylock": false
-								},
-								"H2": {
-									"objtype": "coord",
-									"x": 100,
-									"y": 400,
 									"xlock": false,
 									"ylock": false
 								},
@@ -12072,8 +12072,8 @@
 						"maxes": {
 							"xmax": 100,
 							"xmin": 0,
-							"ymax": 500,
-							"ymin": 400
+							"ymax": 600,
+							"ymin": 500
 						}
 					},
 					"visible": true,
@@ -14089,21 +14089,21 @@
 								"objtype": "pathpoint",
 								"P": {
 									"objtype": "coord",
-									"x": 300,
+									"x": 250,
 									"y": 700,
 									"xlock": false,
 									"ylock": false
 								},
 								"H1": {
 									"objtype": "coord",
-									"x": 300,
+									"x": 250,
 									"y": 700,
 									"xlock": false,
 									"ylock": false
 								},
 								"H2": {
 									"objtype": "coord",
-									"x": 300,
+									"x": 250,
 									"y": 700,
 									"xlock": false,
 									"ylock": false
@@ -14118,21 +14118,21 @@
 								"P": {
 									"objtype": "coord",
 									"x": 500,
-									"y": 500,
+									"y": 450,
 									"xlock": false,
 									"ylock": false
 								},
 								"H1": {
 									"objtype": "coord",
 									"x": 500,
-									"y": 500,
+									"y": 450,
 									"xlock": false,
 									"ylock": false
 								},
 								"H2": {
 									"objtype": "coord",
 									"x": 500,
-									"y": 500,
+									"y": 450,
 									"xlock": false,
 									"ylock": false
 								},
@@ -14335,21 +14335,21 @@
 								"objtype": "pathpoint",
 								"P": {
 									"objtype": "coord",
-									"x": 250,
+									"x": 200,
 									"y": 600,
 									"xlock": false,
 									"ylock": false
 								},
 								"H1": {
 									"objtype": "coord",
-									"x": 250,
+									"x": 200,
 									"y": 600,
 									"xlock": false,
 									"ylock": false
 								},
 								"H2": {
 									"objtype": "coord",
-									"x": 250,
+									"x": 200,
 									"y": 600,
 									"xlock": false,
 									"ylock": false
@@ -14435,34 +14435,6 @@
 									"objtype": "coord",
 									"x": 400,
 									"y": 400,
-									"xlock": false,
-									"ylock": false
-								},
-								"Q": false,
-								"type": "corner",
-								"useh1": false,
-								"useh2": false
-							},
-							{
-								"objtype": "pathpoint",
-								"P": {
-									"objtype": "coord",
-									"x": 400,
-									"y": 450,
-									"xlock": false,
-									"ylock": false
-								},
-								"H1": {
-									"objtype": "coord",
-									"x": 400,
-									"y": 450,
-									"xlock": false,
-									"ylock": false
-								},
-								"H2": {
-									"objtype": "coord",
-									"x": 400,
-									"y": 450,
 									"xlock": false,
 									"ylock": false
 								},
@@ -18930,7 +18902,6 @@
 				"0x00D4",
 				"0x00D5",
 				"0x00D6",
-				"0x00D8",
 				"0x014C",
 				"0x014E",
 				"0x0150"
@@ -31235,7 +31206,6 @@
 				"0x00F4",
 				"0x00F5",
 				"0x00F6",
-				"0x00F8",
 				"0x014D",
 				"0x014F",
 				"0x0151"
@@ -38015,7 +37985,7 @@
 					"objtype": "componentinstance",
 					"link": "com7",
 					"name": "Instance of Diaeresis",
-					"translatex": 100,
+					"translatex": 50,
 					"translatey": 0,
 					"scalew": 0,
 					"scaleh": 0,
@@ -38049,7 +38019,7 @@
 			"maxes": {
 				"xmax": 500,
 				"xmin": 0,
-				"ymax": 900,
+				"ymax": 875,
 				"ymin": 0
 			},
 			"shapes": [
@@ -38077,8 +38047,8 @@
 					"objtype": "componentinstance",
 					"link": "com5",
 					"name": "Instance of Ring",
-					"translatex": 125,
-					"translatey": -100,
+					"translatex": 75,
+					"translatey": -125,
 					"scalew": 0,
 					"scaleh": 0,
 					"flipew": false,
@@ -39041,49 +39011,635 @@
 			"maxes": {
 				"xmax": 500,
 				"xmin": 0,
-				"ymax": 700,
-				"ymin": 0
+				"ymax": 800,
+				"ymin": -100
 			},
 			"shapes": [
 				{
-					"objtype": "componentinstance",
-					"link": "0x004F",
-					"name": "Instance of LATIN CAPITAL LETTER O",
-					"translatex": 0,
-					"translatey": 0,
-					"scalew": 0,
-					"scaleh": 0,
-					"flipew": false,
-					"flipns": false,
-					"reversewinding": false,
-					"rotation": 0,
-					"rotatefirst": false,
+					"objtype": "shape",
+					"name": "Path 1",
+					"path": {
+						"objtype": "path",
+						"pathpoints": [
+							{
+								"objtype": "pathpoint",
+								"P": {
+									"objtype": "coord",
+									"x": 0,
+									"y": 150,
+									"xlock": false,
+									"ylock": false
+								},
+								"H1": {
+									"objtype": "coord",
+									"x": 0,
+									"y": 150,
+									"xlock": false,
+									"ylock": false
+								},
+								"H2": {
+									"objtype": "coord",
+									"x": 0,
+									"y": 150,
+									"xlock": false,
+									"ylock": false
+								},
+								"Q": false,
+								"type": "symmetric",
+								"useh1": true,
+								"useh2": true
+							},
+							{
+								"objtype": "pathpoint",
+								"P": {
+									"objtype": "coord",
+									"x": 0,
+									"y": -100,
+									"xlock": false,
+									"ylock": false
+								},
+								"H1": {
+									"objtype": "coord",
+									"x": 0,
+									"y": -100,
+									"xlock": false,
+									"ylock": false
+								},
+								"H2": {
+									"objtype": "coord",
+									"x": 0,
+									"y": -100,
+									"xlock": false,
+									"ylock": false
+								},
+								"Q": false,
+								"type": "symmetric",
+								"useh1": true,
+								"useh2": true
+							},
+							{
+								"objtype": "pathpoint",
+								"P": {
+									"objtype": "coord",
+									"x": 100,
+									"y": -100,
+									"xlock": false,
+									"ylock": false
+								},
+								"H1": {
+									"objtype": "coord",
+									"x": 100,
+									"y": -100,
+									"xlock": false,
+									"ylock": false
+								},
+								"H2": {
+									"objtype": "coord",
+									"x": 100,
+									"y": -100,
+									"xlock": false,
+									"ylock": false
+								},
+								"Q": false,
+								"type": "symmetric",
+								"useh1": true,
+								"useh2": true
+							},
+							{
+								"objtype": "pathpoint",
+								"P": {
+									"objtype": "coord",
+									"x": 100,
+									"y": 50,
+									"xlock": false,
+									"ylock": false
+								},
+								"H1": {
+									"objtype": "coord",
+									"x": 100,
+									"y": 50,
+									"xlock": false,
+									"ylock": false
+								},
+								"H2": {
+									"objtype": "coord",
+									"x": 100,
+									"y": 50,
+									"xlock": false,
+									"ylock": false
+								},
+								"Q": false,
+								"type": "symmetric",
+								"useh1": true,
+								"useh2": true
+							},
+							{
+								"objtype": "pathpoint",
+								"P": {
+									"objtype": "coord",
+									"x": 150,
+									"y": 0,
+									"xlock": false,
+									"ylock": false
+								},
+								"H1": {
+									"objtype": "coord",
+									"x": 150,
+									"y": 0,
+									"xlock": false,
+									"ylock": false
+								},
+								"H2": {
+									"objtype": "coord",
+									"x": 150,
+									"y": 0,
+									"xlock": false,
+									"ylock": false
+								},
+								"Q": false,
+								"type": "symmetric",
+								"useh1": true,
+								"useh2": true
+							},
+							{
+								"objtype": "pathpoint",
+								"P": {
+									"objtype": "coord",
+									"x": 500,
+									"y": 0,
+									"xlock": false,
+									"ylock": false
+								},
+								"H1": {
+									"objtype": "coord",
+									"x": 500,
+									"y": 0,
+									"xlock": false,
+									"ylock": false
+								},
+								"H2": {
+									"objtype": "coord",
+									"x": 500,
+									"y": 0,
+									"xlock": false,
+									"ylock": false
+								},
+								"Q": false,
+								"type": "symmetric",
+								"useh1": true,
+								"useh2": true
+							},
+							{
+								"objtype": "pathpoint",
+								"P": {
+									"objtype": "coord",
+									"x": 500,
+									"y": 550,
+									"xlock": false,
+									"ylock": false
+								},
+								"H1": {
+									"objtype": "coord",
+									"x": 500,
+									"y": 550,
+									"xlock": false,
+									"ylock": false
+								},
+								"H2": {
+									"objtype": "coord",
+									"x": 500,
+									"y": 550,
+									"xlock": false,
+									"ylock": false
+								},
+								"Q": false,
+								"type": "symmetric",
+								"useh1": true,
+								"useh2": true
+							},
+							{
+								"objtype": "pathpoint",
+								"P": {
+									"objtype": "coord",
+									"x": 500,
+									"y": 800,
+									"xlock": false,
+									"ylock": false
+								},
+								"H1": {
+									"objtype": "coord",
+									"x": 500,
+									"y": 800,
+									"xlock": false,
+									"ylock": false
+								},
+								"H2": {
+									"objtype": "coord",
+									"x": 500,
+									"y": 800,
+									"xlock": false,
+									"ylock": false
+								},
+								"Q": false,
+								"type": "symmetric",
+								"useh1": true,
+								"useh2": true
+							},
+							{
+								"objtype": "pathpoint",
+								"P": {
+									"objtype": "coord",
+									"x": 400,
+									"y": 800,
+									"xlock": false,
+									"ylock": false
+								},
+								"H1": {
+									"objtype": "coord",
+									"x": 400,
+									"y": 800,
+									"xlock": false,
+									"ylock": false
+								},
+								"H2": {
+									"objtype": "coord",
+									"x": 400,
+									"y": 800,
+									"xlock": false,
+									"ylock": false
+								},
+								"Q": false,
+								"type": "symmetric",
+								"useh1": true,
+								"useh2": true
+							},
+							{
+								"objtype": "pathpoint",
+								"P": {
+									"objtype": "coord",
+									"x": 400,
+									"y": 650,
+									"xlock": false,
+									"ylock": false
+								},
+								"H1": {
+									"objtype": "coord",
+									"x": 400,
+									"y": 650,
+									"xlock": false,
+									"ylock": false
+								},
+								"H2": {
+									"objtype": "coord",
+									"x": 400,
+									"y": 650,
+									"xlock": false,
+									"ylock": false
+								},
+								"Q": false,
+								"type": "symmetric",
+								"useh1": true,
+								"useh2": true
+							},
+							{
+								"objtype": "pathpoint",
+								"P": {
+									"objtype": "coord",
+									"x": 350,
+									"y": 700,
+									"xlock": false,
+									"ylock": false
+								},
+								"H1": {
+									"objtype": "coord",
+									"x": 350,
+									"y": 700,
+									"xlock": false,
+									"ylock": false
+								},
+								"H2": {
+									"objtype": "coord",
+									"x": 350,
+									"y": 700,
+									"xlock": false,
+									"ylock": false
+								},
+								"Q": false,
+								"type": "symmetric",
+								"useh1": true,
+								"useh2": true
+							},
+							{
+								"objtype": "pathpoint",
+								"P": {
+									"objtype": "coord",
+									"x": 0,
+									"y": 700,
+									"xlock": false,
+									"ylock": false
+								},
+								"H1": {
+									"objtype": "coord",
+									"x": 0,
+									"y": 700,
+									"xlock": false,
+									"ylock": false
+								},
+								"H2": {
+									"objtype": "coord",
+									"x": 0,
+									"y": 700,
+									"xlock": false,
+									"ylock": false
+								},
+								"Q": false,
+								"type": "symmetric",
+								"useh1": true,
+								"useh2": true
+							}
+						],
+						"winding": 5,
+						"maxes": {
+							"xmax": 500,
+							"xmin": 0,
+							"ymax": 800,
+							"ymin": -100
+						}
+					},
+					"visible": true,
 					"xlock": false,
 					"ylock": false,
 					"wlock": false,
 					"hlock": false,
-					"ratiolock": false,
-					"visible": true
+					"ratiolock": false
 				},
 				{
-					"objtype": "componentinstance",
-					"link": "0x0338",
-					"name": "Instance of COMBINING LONG SOLIDUS OVERLAY",
-					"translatex": 250,
-					"translatey": 0,
-					"scalew": 0,
-					"scaleh": 0,
-					"flipew": false,
-					"flipns": false,
-					"reversewinding": false,
-					"rotation": 0,
-					"rotatefirst": false,
+					"objtype": "shape",
+					"name": "Path 2",
+					"path": {
+						"objtype": "path",
+						"pathpoints": [
+							{
+								"objtype": "pathpoint",
+								"P": {
+									"objtype": "coord",
+									"x": 300,
+									"y": 600,
+									"xlock": false,
+									"ylock": false
+								},
+								"H1": {
+									"objtype": "coord",
+									"x": 300,
+									"y": 600,
+									"xlock": false,
+									"ylock": false
+								},
+								"H2": {
+									"objtype": "coord",
+									"x": 300,
+									"y": 600,
+									"xlock": false,
+									"ylock": false
+								},
+								"Q": false,
+								"type": "symmetric",
+								"useh1": true,
+								"useh2": true
+							},
+							{
+								"objtype": "pathpoint",
+								"P": {
+									"objtype": "coord",
+									"x": 350,
+									"y": 550,
+									"xlock": false,
+									"ylock": false
+								},
+								"H1": {
+									"objtype": "coord",
+									"x": 350,
+									"y": 550,
+									"xlock": false,
+									"ylock": false
+								},
+								"H2": {
+									"objtype": "coord",
+									"x": 350,
+									"y": 550,
+									"xlock": false,
+									"ylock": false
+								},
+								"Q": false,
+								"type": "symmetric",
+								"useh1": true,
+								"useh2": true
+							},
+							{
+								"objtype": "pathpoint",
+								"P": {
+									"objtype": "coord",
+									"x": 100,
+									"y": 250,
+									"xlock": false,
+									"ylock": false
+								},
+								"H1": {
+									"objtype": "coord",
+									"x": 100,
+									"y": 250,
+									"xlock": false,
+									"ylock": false
+								},
+								"H2": {
+									"objtype": "coord",
+									"x": 100,
+									"y": 250,
+									"xlock": false,
+									"ylock": false
+								},
+								"Q": false,
+								"type": "symmetric",
+								"useh1": true,
+								"useh2": true
+							},
+							{
+								"objtype": "pathpoint",
+								"P": {
+									"objtype": "coord",
+									"x": 100,
+									"y": 600,
+									"xlock": false,
+									"ylock": false
+								},
+								"H1": {
+									"objtype": "coord",
+									"x": 100,
+									"y": 600,
+									"xlock": false,
+									"ylock": false
+								},
+								"H2": {
+									"objtype": "coord",
+									"x": 100,
+									"y": 600,
+									"xlock": false,
+									"ylock": false
+								},
+								"Q": false,
+								"type": "symmetric",
+								"useh1": true,
+								"useh2": true
+							}
+						],
+						"winding": -6,
+						"maxes": {
+							"xmax": 350,
+							"xmin": 100,
+							"ymax": 600,
+							"ymin": 250
+						}
+					},
+					"visible": true,
 					"xlock": false,
 					"ylock": false,
 					"wlock": false,
 					"hlock": false,
-					"ratiolock": false,
-					"visible": true
+					"ratiolock": false
+				},
+				{
+					"objtype": "shape",
+					"name": "Path 3",
+					"path": {
+						"objtype": "path",
+						"pathpoints": [
+							{
+								"objtype": "pathpoint",
+								"P": {
+									"objtype": "coord",
+									"x": 400,
+									"y": 100,
+									"xlock": false,
+									"ylock": false
+								},
+								"H1": {
+									"objtype": "coord",
+									"x": 400,
+									"y": 100,
+									"xlock": false,
+									"ylock": false
+								},
+								"H2": {
+									"objtype": "coord",
+									"x": 400,
+									"y": 100,
+									"xlock": false,
+									"ylock": false
+								},
+								"Q": false,
+								"type": "symmetric",
+								"useh1": true,
+								"useh2": true
+							},
+							{
+								"objtype": "pathpoint",
+								"P": {
+									"objtype": "coord",
+									"x": 200,
+									"y": 100,
+									"xlock": false,
+									"ylock": false
+								},
+								"H1": {
+									"objtype": "coord",
+									"x": 200,
+									"y": 100,
+									"xlock": false,
+									"ylock": false
+								},
+								"H2": {
+									"objtype": "coord",
+									"x": 200,
+									"y": 100,
+									"xlock": false,
+									"ylock": false
+								},
+								"Q": false,
+								"type": "symmetric",
+								"useh1": true,
+								"useh2": true
+							},
+							{
+								"objtype": "pathpoint",
+								"P": {
+									"objtype": "coord",
+									"x": 150,
+									"y": 150,
+									"xlock": false,
+									"ylock": false
+								},
+								"H1": {
+									"objtype": "coord",
+									"x": 150,
+									"y": 150,
+									"xlock": false,
+									"ylock": false
+								},
+								"H2": {
+									"objtype": "coord",
+									"x": 150,
+									"y": 150,
+									"xlock": false,
+									"ylock": false
+								},
+								"Q": false,
+								"type": "symmetric",
+								"useh1": true,
+								"useh2": true
+							},
+							{
+								"objtype": "pathpoint",
+								"P": {
+									"objtype": "coord",
+									"x": 400,
+									"y": 450,
+									"xlock": false,
+									"ylock": false
+								},
+								"H1": {
+									"objtype": "coord",
+									"x": 400,
+									"y": 450,
+									"xlock": false,
+									"ylock": false
+								},
+								"H2": {
+									"objtype": "coord",
+									"x": 400,
+									"y": 450,
+									"xlock": false,
+									"ylock": false
+								},
+								"Q": false,
+								"type": "symmetric",
+								"useh1": true,
+								"useh2": true
+							}
+						],
+						"winding": -6,
+						"maxes": {
+							"xmax": 400,
+							"xmin": 150,
+							"ymax": 450,
+							"ymin": 100
+						}
+					},
+					"visible": true,
+					"xlock": false,
+					"ylock": false,
+					"wlock": false,
+					"hlock": false,
+					"ratiolock": false
 				}
 			],
 			"usedin": [],
@@ -39107,9 +39663,7 @@
 				"ymin": 999999
 			},
 			"shapes": [],
-			"usedin": [
-				"0x00D8"
-			],
+			"usedin": [],
 			"contextglyphs": "",
 			"rotationreferenceshapes": false
 		},
@@ -40049,13 +40603,13 @@
 			"name": "LATIN SMALL LETTER I WITH GRAVE",
 			"glyphhtml": "&#236;",
 			"isautowide": true,
-			"glyphwidth": 100,
+			"glyphwidth": 200,
 			"leftsidebearing": false,
 			"rightsidebearing": false,
 			"ratiolock": false,
 			"maxes": {
-				"xmax": 100,
-				"xmin": -100,
+				"xmax": 200,
+				"xmin": 0,
 				"ymax": 750,
 				"ymin": 0
 			},
@@ -40064,7 +40618,7 @@
 					"objtype": "componentinstance",
 					"link": "com1",
 					"name": "Instance of Slant Accent",
-					"translatex": -100,
+					"translatex": 0,
 					"translatey": -200,
 					"scalew": 0,
 					"scaleh": 0,
@@ -40090,21 +40644,21 @@
 								"objtype": "pathpoint",
 								"P": {
 									"objtype": "coord",
-									"x": 0,
+									"x": 100,
 									"y": 0,
 									"xlock": false,
 									"ylock": false
 								},
 								"H1": {
 									"objtype": "coord",
-									"x": 0,
+									"x": 100,
 									"y": 0,
 									"xlock": false,
 									"ylock": false
 								},
 								"H2": {
 									"objtype": "coord",
-									"x": 0,
+									"x": 100,
 									"y": 0,
 									"xlock": false,
 									"ylock": false
@@ -40118,34 +40672,6 @@
 								"objtype": "pathpoint",
 								"P": {
 									"objtype": "coord",
-									"x": 0,
-									"y": 500,
-									"xlock": false,
-									"ylock": false
-								},
-								"H1": {
-									"objtype": "coord",
-									"x": 0,
-									"y": 500,
-									"xlock": false,
-									"ylock": false
-								},
-								"H2": {
-									"objtype": "coord",
-									"x": 0,
-									"y": 500,
-									"xlock": false,
-									"ylock": false
-								},
-								"Q": false,
-								"type": "corner",
-								"useh1": false,
-								"useh2": false
-							},
-							{
-								"objtype": "pathpoint",
-								"P": {
-									"objtype": "coord",
 									"x": 100,
 									"y": 500,
 									"xlock": false,
@@ -40174,21 +40700,49 @@
 								"objtype": "pathpoint",
 								"P": {
 									"objtype": "coord",
-									"x": 100,
+									"x": 200,
+									"y": 500,
+									"xlock": false,
+									"ylock": false
+								},
+								"H1": {
+									"objtype": "coord",
+									"x": 200,
+									"y": 500,
+									"xlock": false,
+									"ylock": false
+								},
+								"H2": {
+									"objtype": "coord",
+									"x": 200,
+									"y": 500,
+									"xlock": false,
+									"ylock": false
+								},
+								"Q": false,
+								"type": "corner",
+								"useh1": false,
+								"useh2": false
+							},
+							{
+								"objtype": "pathpoint",
+								"P": {
+									"objtype": "coord",
+									"x": 200,
 									"y": 0,
 									"xlock": false,
 									"ylock": false
 								},
 								"H1": {
 									"objtype": "coord",
-									"x": 100,
+									"x": 200,
 									"y": 0,
 									"xlock": false,
 									"ylock": false
 								},
 								"H2": {
 									"objtype": "coord",
-									"x": 100,
+									"x": 200,
 									"y": 0,
 									"xlock": false,
 									"ylock": false
@@ -40201,8 +40755,8 @@
 						],
 						"winding": -5,
 						"maxes": {
-							"xmax": 100,
-							"xmin": 0,
+							"xmax": 200,
+							"xmin": 100,
 							"ymax": 500,
 							"ymin": 0
 						}
@@ -40227,13 +40781,13 @@
 			"name": "LATIN SMALL LETTER I WITH ACUTE",
 			"glyphhtml": "&#237;",
 			"isautowide": true,
-			"glyphwidth": 200,
+			"glyphwidth": 300,
 			"leftsidebearing": false,
 			"rightsidebearing": false,
 			"ratiolock": false,
 			"maxes": {
-				"xmax": 200,
-				"xmin": 0,
+				"xmax": 300,
+				"xmin": 100,
 				"ymax": 750,
 				"ymin": 0
 			},
@@ -40269,14 +40823,14 @@
 			"name": "LATIN SMALL LETTER I WITH CIRCUMFLEX",
 			"glyphhtml": "&#238;",
 			"isautowide": true,
-			"glyphwidth": 250.0812,
+			"glyphwidth": 300,
 			"leftsidebearing": false,
 			"rightsidebearing": false,
 			"ratiolock": false,
 			"maxes": {
-				"xmax": 250.0812,
-				"xmin": 50,
-				"ymax": 749.9593,
+				"xmax": 300,
+				"xmin": 0,
+				"ymax": 750,
 				"ymin": 0
 			},
 			"shapes": [
@@ -40419,7 +40973,7 @@
 					"link": "com2",
 					"name": "Instance of Circumflex",
 					"translatex": 0,
-					"translatey": -250,
+					"translatey": -200,
 					"scalew": 0,
 					"scaleh": 0,
 					"flipew": false,
@@ -41000,49 +41554,579 @@
 			"maxes": {
 				"xmax": 500,
 				"xmin": 0,
-				"ymax": 500,
-				"ymin": 0
+				"ymax": 600,
+				"ymin": -100
 			},
 			"shapes": [
 				{
-					"objtype": "componentinstance",
-					"link": "0x006F",
-					"name": "Instance of LATIN SMALL LETTER O",
-					"translatex": 0,
-					"translatey": 0,
-					"scalew": 0,
-					"scaleh": 0,
-					"flipew": false,
-					"flipns": false,
-					"reversewinding": false,
-					"rotation": 0,
-					"rotatefirst": false,
+					"objtype": "shape",
+					"name": "Path 1",
+					"path": {
+						"objtype": "path",
+						"pathpoints": [
+							{
+								"objtype": "pathpoint",
+								"P": {
+									"objtype": "coord",
+									"x": 0,
+									"y": -100,
+									"xlock": false,
+									"ylock": false
+								},
+								"H1": {
+									"objtype": "coord",
+									"x": 0,
+									"y": -100,
+									"xlock": false,
+									"ylock": false
+								},
+								"H2": {
+									"objtype": "coord",
+									"x": 0,
+									"y": -100,
+									"xlock": false,
+									"ylock": false
+								},
+								"Q": false,
+								"type": "symmetric",
+								"useh1": true,
+								"useh2": true
+							},
+							{
+								"objtype": "pathpoint",
+								"P": {
+									"objtype": "coord",
+									"x": 100,
+									"y": -100,
+									"xlock": false,
+									"ylock": false
+								},
+								"H1": {
+									"objtype": "coord",
+									"x": 100,
+									"y": -100,
+									"xlock": false,
+									"ylock": false
+								},
+								"H2": {
+									"objtype": "coord",
+									"x": 100,
+									"y": -100,
+									"xlock": false,
+									"ylock": false
+								},
+								"Q": false,
+								"type": "symmetric",
+								"useh1": true,
+								"useh2": true
+							},
+							{
+								"objtype": "pathpoint",
+								"P": {
+									"objtype": "coord",
+									"x": 100,
+									"y": 50,
+									"xlock": false,
+									"ylock": false
+								},
+								"H1": {
+									"objtype": "coord",
+									"x": 100,
+									"y": 50,
+									"xlock": false,
+									"ylock": false
+								},
+								"H2": {
+									"objtype": "coord",
+									"x": 100,
+									"y": 50,
+									"xlock": false,
+									"ylock": false
+								},
+								"Q": false,
+								"type": "symmetric",
+								"useh1": true,
+								"useh2": true
+							},
+							{
+								"objtype": "pathpoint",
+								"P": {
+									"objtype": "coord",
+									"x": 150,
+									"y": 0,
+									"xlock": false,
+									"ylock": false
+								},
+								"H1": {
+									"objtype": "coord",
+									"x": 150,
+									"y": 0,
+									"xlock": false,
+									"ylock": false
+								},
+								"H2": {
+									"objtype": "coord",
+									"x": 150,
+									"y": 0,
+									"xlock": false,
+									"ylock": false
+								},
+								"Q": false,
+								"type": "symmetric",
+								"useh1": true,
+								"useh2": true
+							},
+							{
+								"objtype": "pathpoint",
+								"P": {
+									"objtype": "coord",
+									"x": 500,
+									"y": 0,
+									"xlock": false,
+									"ylock": false
+								},
+								"H1": {
+									"objtype": "coord",
+									"x": 500,
+									"y": 0,
+									"xlock": false,
+									"ylock": false
+								},
+								"H2": {
+									"objtype": "coord",
+									"x": 500,
+									"y": 0,
+									"xlock": false,
+									"ylock": false
+								},
+								"Q": false,
+								"type": "symmetric",
+								"useh1": true,
+								"useh2": true
+							},
+							{
+								"objtype": "pathpoint",
+								"P": {
+									"objtype": "coord",
+									"x": 500,
+									"y": 600,
+									"xlock": false,
+									"ylock": false
+								},
+								"H1": {
+									"objtype": "coord",
+									"x": 500,
+									"y": 600,
+									"xlock": false,
+									"ylock": false
+								},
+								"H2": {
+									"objtype": "coord",
+									"x": 500,
+									"y": 600,
+									"xlock": false,
+									"ylock": false
+								},
+								"Q": false,
+								"type": "symmetric",
+								"useh1": true,
+								"useh2": true
+							},
+							{
+								"objtype": "pathpoint",
+								"P": {
+									"objtype": "coord",
+									"x": 400,
+									"y": 600,
+									"xlock": false,
+									"ylock": false
+								},
+								"H1": {
+									"objtype": "coord",
+									"x": 400,
+									"y": 600,
+									"xlock": false,
+									"ylock": false
+								},
+								"H2": {
+									"objtype": "coord",
+									"x": 400,
+									"y": 600,
+									"xlock": false,
+									"ylock": false
+								},
+								"Q": false,
+								"type": "symmetric",
+								"useh1": true,
+								"useh2": true
+							},
+							{
+								"objtype": "pathpoint",
+								"P": {
+									"objtype": "coord",
+									"x": 400,
+									"y": 450,
+									"xlock": false,
+									"ylock": false
+								},
+								"H1": {
+									"objtype": "coord",
+									"x": 400,
+									"y": 450,
+									"xlock": false,
+									"ylock": false
+								},
+								"H2": {
+									"objtype": "coord",
+									"x": 400,
+									"y": 450,
+									"xlock": false,
+									"ylock": false
+								},
+								"Q": false,
+								"type": "symmetric",
+								"useh1": true,
+								"useh2": true
+							},
+							{
+								"objtype": "pathpoint",
+								"P": {
+									"objtype": "coord",
+									"x": 350,
+									"y": 500,
+									"xlock": false,
+									"ylock": false
+								},
+								"H1": {
+									"objtype": "coord",
+									"x": 350,
+									"y": 500,
+									"xlock": false,
+									"ylock": false
+								},
+								"H2": {
+									"objtype": "coord",
+									"x": 350,
+									"y": 500,
+									"xlock": false,
+									"ylock": false
+								},
+								"Q": false,
+								"type": "symmetric",
+								"useh1": true,
+								"useh2": true
+							},
+							{
+								"objtype": "pathpoint",
+								"P": {
+									"objtype": "coord",
+									"x": 0,
+									"y": 500,
+									"xlock": false,
+									"ylock": false
+								},
+								"H1": {
+									"objtype": "coord",
+									"x": 0,
+									"y": 500,
+									"xlock": false,
+									"ylock": false
+								},
+								"H2": {
+									"objtype": "coord",
+									"x": 0,
+									"y": 500,
+									"xlock": false,
+									"ylock": false
+								},
+								"Q": false,
+								"type": "symmetric",
+								"useh1": true,
+								"useh2": true
+							}
+						],
+						"winding": 7,
+						"maxes": {
+							"xmax": 500,
+							"xmin": 0,
+							"ymax": 600,
+							"ymin": -100
+						}
+					},
+					"visible": true,
 					"xlock": false,
 					"ylock": false,
 					"wlock": false,
 					"hlock": false,
-					"ratiolock": false,
-					"visible": true
+					"ratiolock": false
 				},
 				{
-					"objtype": "componentinstance",
-					"link": "0x0337",
-					"name": "Instance of COMBINING SHORT SOLIDUS OVERLAY",
-					"translatex": 250,
-					"translatey": 0,
-					"scalew": 0,
-					"scaleh": 0,
-					"flipew": false,
-					"flipns": false,
-					"reversewinding": false,
-					"rotation": 0,
-					"rotatefirst": false,
+					"objtype": "shape",
+					"name": "Path 2",
+					"path": {
+						"objtype": "path",
+						"pathpoints": [
+							{
+								"objtype": "pathpoint",
+								"P": {
+									"objtype": "coord",
+									"x": 100,
+									"y": 200,
+									"xlock": false,
+									"ylock": false
+								},
+								"H1": {
+									"objtype": "coord",
+									"x": 100,
+									"y": 200,
+									"xlock": false,
+									"ylock": false
+								},
+								"H2": {
+									"objtype": "coord",
+									"x": 100,
+									"y": 200,
+									"xlock": false,
+									"ylock": false
+								},
+								"Q": false,
+								"type": "symmetric",
+								"useh1": true,
+								"useh2": true
+							},
+							{
+								"objtype": "pathpoint",
+								"P": {
+									"objtype": "coord",
+									"x": 400,
+									"y": 200,
+									"xlock": false,
+									"ylock": false
+								},
+								"H1": {
+									"objtype": "coord",
+									"x": 400,
+									"y": 200,
+									"xlock": false,
+									"ylock": false
+								},
+								"H2": {
+									"objtype": "coord",
+									"x": 400,
+									"y": 200,
+									"xlock": false,
+									"ylock": false
+								},
+								"Q": false,
+								"type": "symmetric",
+								"useh1": true,
+								"useh2": true
+							},
+							{
+								"objtype": "pathpoint",
+								"P": {
+									"objtype": "coord",
+									"x": 400,
+									"y": 100,
+									"xlock": false,
+									"ylock": false
+								},
+								"H1": {
+									"objtype": "coord",
+									"x": 400,
+									"y": 100,
+									"xlock": false,
+									"ylock": false
+								},
+								"H2": {
+									"objtype": "coord",
+									"x": 400,
+									"y": 100,
+									"xlock": false,
+									"ylock": false
+								},
+								"Q": false,
+								"type": "symmetric",
+								"useh1": true,
+								"useh2": true
+							},
+							{
+								"objtype": "pathpoint",
+								"P": {
+									"objtype": "coord",
+									"x": 200,
+									"y": 100,
+									"xlock": false,
+									"ylock": false
+								},
+								"H1": {
+									"objtype": "coord",
+									"x": 200,
+									"y": 100,
+									"xlock": false,
+									"ylock": false
+								},
+								"H2": {
+									"objtype": "coord",
+									"x": 200,
+									"y": 100,
+									"xlock": false,
+									"ylock": false
+								},
+								"Q": false,
+								"type": "symmetric",
+								"useh1": true,
+								"useh2": true
+							}
+						],
+						"winding": -5,
+						"maxes": {
+							"xmax": 400,
+							"xmin": 100,
+							"ymax": 200,
+							"ymin": 100
+						}
+					},
+					"visible": true,
 					"xlock": false,
 					"ylock": false,
 					"wlock": false,
 					"hlock": false,
-					"ratiolock": false,
-					"visible": true
+					"ratiolock": false
+				},
+				{
+					"objtype": "shape",
+					"name": "Path 3",
+					"path": {
+						"objtype": "path",
+						"pathpoints": [
+							{
+								"objtype": "pathpoint",
+								"P": {
+									"objtype": "coord",
+									"x": 400,
+									"y": 300,
+									"xlock": false,
+									"ylock": false
+								},
+								"H1": {
+									"objtype": "coord",
+									"x": 400,
+									"y": 300,
+									"xlock": false,
+									"ylock": false
+								},
+								"H2": {
+									"objtype": "coord",
+									"x": 400,
+									"y": 300,
+									"xlock": false,
+									"ylock": false
+								},
+								"Q": false,
+								"type": "symmetric",
+								"useh1": true,
+								"useh2": true
+							},
+							{
+								"objtype": "pathpoint",
+								"P": {
+									"objtype": "coord",
+									"x": 100,
+									"y": 300,
+									"xlock": false,
+									"ylock": false
+								},
+								"H1": {
+									"objtype": "coord",
+									"x": 100,
+									"y": 300,
+									"xlock": false,
+									"ylock": false
+								},
+								"H2": {
+									"objtype": "coord",
+									"x": 100,
+									"y": 300,
+									"xlock": false,
+									"ylock": false
+								},
+								"Q": false,
+								"type": "symmetric",
+								"useh1": true,
+								"useh2": true
+							},
+							{
+								"objtype": "pathpoint",
+								"P": {
+									"objtype": "coord",
+									"x": 100,
+									"y": 400,
+									"xlock": false,
+									"ylock": false
+								},
+								"H1": {
+									"objtype": "coord",
+									"x": 100,
+									"y": 400,
+									"xlock": false,
+									"ylock": false
+								},
+								"H2": {
+									"objtype": "coord",
+									"x": 100,
+									"y": 400,
+									"xlock": false,
+									"ylock": false
+								},
+								"Q": false,
+								"type": "symmetric",
+								"useh1": true,
+								"useh2": true
+							},
+							{
+								"objtype": "pathpoint",
+								"P": {
+									"objtype": "coord",
+									"x": 300,
+									"y": 400,
+									"xlock": false,
+									"ylock": false
+								},
+								"H1": {
+									"objtype": "coord",
+									"x": 300,
+									"y": 400,
+									"xlock": false,
+									"ylock": false
+								},
+								"H2": {
+									"objtype": "coord",
+									"x": 300,
+									"y": 400,
+									"xlock": false,
+									"ylock": false
+								},
+								"Q": false,
+								"type": "symmetric",
+								"useh1": true,
+								"useh2": true
+							}
+						],
+						"winding": -5,
+						"maxes": {
+							"xmax": 400,
+							"xmin": 100,
+							"ymax": 400,
+							"ymin": 300
+						}
+					},
+					"visible": true,
+					"xlock": false,
+					"ylock": false,
+					"wlock": false,
+					"hlock": false,
+					"ratiolock": false
 				}
 			],
 			"usedin": [],
@@ -41067,7 +42151,6 @@
 			},
 			"shapes": [],
 			"usedin": [
-				"0x00F8",
 				"0x0141",
 				"0x0142"
 			],
@@ -43669,13 +44752,13 @@
 			"name": "LATIN CAPITAL LETTER H WITH STROKE",
 			"glyphhtml": "&#294;",
 			"isautowide": true,
-			"glyphwidth": 600,
+			"glyphwidth": 700,
 			"leftsidebearing": false,
 			"rightsidebearing": false,
 			"ratiolock": false,
 			"maxes": {
-				"xmax": 600,
-				"xmin": -100,
+				"xmax": 700,
+				"xmin": 0,
 				"ymax": 700,
 				"ymin": 0
 			},
@@ -43684,7 +44767,7 @@
 					"objtype": "componentinstance",
 					"link": "0x0336",
 					"name": "Instance of COMBINING LONG STROKE OVERLAY",
-					"translatex": 250,
+					"translatex": 350,
 					"translatey": 0,
 					"scalew": 0,
 					"scaleh": 0,
@@ -43710,21 +44793,21 @@
 								"objtype": "pathpoint",
 								"P": {
 									"objtype": "coord",
-									"x": 0,
+									"x": 100,
 									"y": 0,
 									"xlock": false,
 									"ylock": false
 								},
 								"H1": {
 									"objtype": "coord",
-									"x": 0,
+									"x": 100,
 									"y": 0,
 									"xlock": false,
 									"ylock": false
 								},
 								"H2": {
 									"objtype": "coord",
-									"x": 0,
+									"x": 100,
 									"y": 0,
 									"xlock": false,
 									"ylock": false
@@ -43738,34 +44821,6 @@
 								"objtype": "pathpoint",
 								"P": {
 									"objtype": "coord",
-									"x": 0,
-									"y": 700,
-									"xlock": false,
-									"ylock": false
-								},
-								"H1": {
-									"objtype": "coord",
-									"x": 0,
-									"y": 700,
-									"xlock": false,
-									"ylock": false
-								},
-								"H2": {
-									"objtype": "coord",
-									"x": 0,
-									"y": 700,
-									"xlock": false,
-									"ylock": false
-								},
-								"Q": false,
-								"type": "corner",
-								"useh1": false,
-								"useh2": false
-							},
-							{
-								"objtype": "pathpoint",
-								"P": {
-									"objtype": "coord",
 									"x": 100,
 									"y": 700,
 									"xlock": false,
@@ -43794,21 +44849,49 @@
 								"objtype": "pathpoint",
 								"P": {
 									"objtype": "coord",
-									"x": 100,
+									"x": 200,
+									"y": 700,
+									"xlock": false,
+									"ylock": false
+								},
+								"H1": {
+									"objtype": "coord",
+									"x": 200,
+									"y": 700,
+									"xlock": false,
+									"ylock": false
+								},
+								"H2": {
+									"objtype": "coord",
+									"x": 200,
+									"y": 700,
+									"xlock": false,
+									"ylock": false
+								},
+								"Q": false,
+								"type": "corner",
+								"useh1": false,
+								"useh2": false
+							},
+							{
+								"objtype": "pathpoint",
+								"P": {
+									"objtype": "coord",
+									"x": 200,
 									"y": 400,
 									"xlock": false,
 									"ylock": false
 								},
 								"H1": {
 									"objtype": "coord",
-									"x": 100,
+									"x": 200,
 									"y": 400,
 									"xlock": false,
 									"ylock": false
 								},
 								"H2": {
 									"objtype": "coord",
-									"x": 100,
+									"x": 200,
 									"y": 400,
 									"xlock": false,
 									"ylock": false
@@ -43822,50 +44905,22 @@
 								"objtype": "pathpoint",
 								"P": {
 									"objtype": "coord",
-									"x": 400,
+									"x": 500,
 									"y": 400,
 									"xlock": false,
 									"ylock": false
 								},
 								"H1": {
 									"objtype": "coord",
-									"x": 400,
+									"x": 500,
 									"y": 400,
 									"xlock": false,
 									"ylock": false
 								},
 								"H2": {
 									"objtype": "coord",
-									"x": 400,
+									"x": 500,
 									"y": 400,
-									"xlock": false,
-									"ylock": false
-								},
-								"Q": false,
-								"type": "corner",
-								"useh1": false,
-								"useh2": false
-							},
-							{
-								"objtype": "pathpoint",
-								"P": {
-									"objtype": "coord",
-									"x": 400,
-									"y": 700,
-									"xlock": false,
-									"ylock": false
-								},
-								"H1": {
-									"objtype": "coord",
-									"x": 400,
-									"y": 700,
-									"xlock": false,
-									"ylock": false
-								},
-								"H2": {
-									"objtype": "coord",
-									"x": 400,
-									"y": 700,
 									"xlock": false,
 									"ylock": false
 								},
@@ -43906,6 +44961,62 @@
 								"objtype": "pathpoint",
 								"P": {
 									"objtype": "coord",
+									"x": 600,
+									"y": 700,
+									"xlock": false,
+									"ylock": false
+								},
+								"H1": {
+									"objtype": "coord",
+									"x": 600,
+									"y": 700,
+									"xlock": false,
+									"ylock": false
+								},
+								"H2": {
+									"objtype": "coord",
+									"x": 600,
+									"y": 700,
+									"xlock": false,
+									"ylock": false
+								},
+								"Q": false,
+								"type": "corner",
+								"useh1": false,
+								"useh2": false
+							},
+							{
+								"objtype": "pathpoint",
+								"P": {
+									"objtype": "coord",
+									"x": 600,
+									"y": 0,
+									"xlock": false,
+									"ylock": false
+								},
+								"H1": {
+									"objtype": "coord",
+									"x": 600,
+									"y": 0,
+									"xlock": false,
+									"ylock": false
+								},
+								"H2": {
+									"objtype": "coord",
+									"x": 600,
+									"y": 0,
+									"xlock": false,
+									"ylock": false
+								},
+								"Q": false,
+								"type": "corner",
+								"useh1": false,
+								"useh2": false
+							},
+							{
+								"objtype": "pathpoint",
+								"P": {
+									"objtype": "coord",
 									"x": 500,
 									"y": 0,
 									"xlock": false,
@@ -43934,49 +45045,21 @@
 								"objtype": "pathpoint",
 								"P": {
 									"objtype": "coord",
-									"x": 400,
-									"y": 0,
-									"xlock": false,
-									"ylock": false
-								},
-								"H1": {
-									"objtype": "coord",
-									"x": 400,
-									"y": 0,
-									"xlock": false,
-									"ylock": false
-								},
-								"H2": {
-									"objtype": "coord",
-									"x": 400,
-									"y": 0,
-									"xlock": false,
-									"ylock": false
-								},
-								"Q": false,
-								"type": "corner",
-								"useh1": false,
-								"useh2": false
-							},
-							{
-								"objtype": "pathpoint",
-								"P": {
-									"objtype": "coord",
-									"x": 400,
+									"x": 500,
 									"y": 300,
 									"xlock": false,
 									"ylock": false
 								},
 								"H1": {
 									"objtype": "coord",
-									"x": 400,
+									"x": 500,
 									"y": 300,
 									"xlock": false,
 									"ylock": false
 								},
 								"H2": {
 									"objtype": "coord",
-									"x": 400,
+									"x": 500,
 									"y": 300,
 									"xlock": false,
 									"ylock": false
@@ -43990,21 +45073,21 @@
 								"objtype": "pathpoint",
 								"P": {
 									"objtype": "coord",
-									"x": 100,
+									"x": 200,
 									"y": 300,
 									"xlock": false,
 									"ylock": false
 								},
 								"H1": {
 									"objtype": "coord",
-									"x": 100,
+									"x": 200,
 									"y": 300,
 									"xlock": false,
 									"ylock": false
 								},
 								"H2": {
 									"objtype": "coord",
-									"x": 100,
+									"x": 200,
 									"y": 300,
 									"xlock": false,
 									"ylock": false
@@ -44018,21 +45101,21 @@
 								"objtype": "pathpoint",
 								"P": {
 									"objtype": "coord",
-									"x": 100,
+									"x": 200,
 									"y": 0,
 									"xlock": false,
 									"ylock": false
 								},
 								"H1": {
 									"objtype": "coord",
-									"x": 100,
+									"x": 200,
 									"y": 0,
 									"xlock": false,
 									"ylock": false
 								},
 								"H2": {
 									"objtype": "coord",
-									"x": 100,
+									"x": 200,
 									"y": 0,
 									"xlock": false,
 									"ylock": false
@@ -44045,8 +45128,8 @@
 						],
 						"winding": -5,
 						"maxes": {
-							"xmax": 500,
-							"xmin": 0,
+							"xmax": 600,
+							"xmin": 100,
 							"ymax": 700,
 							"ymin": 0
 						}
@@ -44068,21 +45151,21 @@
 								"objtype": "pathpoint",
 								"P": {
 									"objtype": "coord",
-									"x": -100,
+									"x": 0,
 									"y": 575,
 									"xlock": false,
 									"ylock": false
 								},
 								"H1": {
 									"objtype": "coord",
-									"x": -100,
+									"x": 0,
 									"y": 550,
 									"xlock": false,
 									"ylock": false
 								},
 								"H2": {
 									"objtype": "coord",
-									"x": -24.000000000000064,
+									"x": 75.99999999999994,
 									"y": 575,
 									"xlock": false,
 									"ylock": false
@@ -44096,21 +45179,21 @@
 								"objtype": "pathpoint",
 								"P": {
 									"objtype": "coord",
-									"x": 600,
+									"x": 700,
 									"y": 575,
 									"xlock": false,
 									"ylock": false
 								},
 								"H1": {
 									"objtype": "coord",
-									"x": 524.0000000000003,
+									"x": 624.0000000000003,
 									"y": 575,
 									"xlock": false,
 									"ylock": false
 								},
 								"H2": {
 									"objtype": "coord",
-									"x": 600,
+									"x": 700,
 									"y": 550,
 									"xlock": false,
 									"ylock": false
@@ -44124,21 +45207,21 @@
 								"objtype": "pathpoint",
 								"P": {
 									"objtype": "coord",
-									"x": 600,
+									"x": 700,
 									"y": 500,
 									"xlock": false,
 									"ylock": false
 								},
 								"H1": {
 									"objtype": "coord",
-									"x": 600,
+									"x": 700,
 									"y": 525.0000000000006,
 									"xlock": false,
 									"ylock": false
 								},
 								"H2": {
 									"objtype": "coord",
-									"x": 524.0000000000005,
+									"x": 624.0000000000005,
 									"y": 500,
 									"xlock": false,
 									"ylock": false
@@ -44152,21 +45235,21 @@
 								"objtype": "pathpoint",
 								"P": {
 									"objtype": "coord",
-									"x": -100,
+									"x": 0,
 									"y": 500,
 									"xlock": false,
 									"ylock": false
 								},
 								"H1": {
 									"objtype": "coord",
-									"x": -24.000000000000068,
+									"x": 75.99999999999993,
 									"y": 500,
 									"xlock": false,
 									"ylock": false
 								},
 								"H2": {
 									"objtype": "coord",
-									"x": -100,
+									"x": 0,
 									"y": 525.0000000000006,
 									"xlock": false,
 									"ylock": false
@@ -44179,8 +45262,8 @@
 						],
 						"winding": -5,
 						"maxes": {
-							"xmax": 600,
-							"xmin": -100,
+							"xmax": 700,
+							"xmin": 0,
 							"ymax": 575,
 							"ymin": 500
 						}
@@ -44226,13 +45309,13 @@
 			"name": "LATIN SMALL LETTER H WITH STROKE",
 			"glyphhtml": "&#295;",
 			"isautowide": true,
-			"glyphwidth": 500,
+			"glyphwidth": 600,
 			"leftsidebearing": false,
 			"rightsidebearing": false,
 			"ratiolock": false,
 			"maxes": {
-				"xmax": 500,
-				"xmin": -100,
+				"xmax": 600,
+				"xmin": 0,
 				"ymax": 700,
 				"ymin": 0
 			},
@@ -44241,7 +45324,7 @@
 					"objtype": "componentinstance",
 					"link": "0x0068",
 					"name": "Instance of LATIN SMALL LETTER H",
-					"translatex": 0,
+					"translatex": 100,
 					"translatey": 0,
 					"scalew": 0,
 					"scaleh": 0,
@@ -44261,7 +45344,7 @@
 					"objtype": "componentinstance",
 					"link": "0x0335",
 					"name": "Instance of COMBINING SHORT STROKE OVERLAY",
-					"translatex": 250,
+					"translatex": 350,
 					"translatey": 0,
 					"scalew": 0,
 					"scaleh": 0,
@@ -44281,7 +45364,7 @@
 					"objtype": "componentinstance",
 					"link": "com13",
 					"name": "Instance of Stroke",
-					"translatex": -100,
+					"translatex": 0,
 					"translatey": -200,
 					"scalew": 0,
 					"scaleh": 0,
@@ -44898,14 +45981,14 @@
 			"name": "LATIN CAPITAL LETTER I WITH BREVE",
 			"glyphhtml": "&#300;",
 			"isautowide": true,
-			"glyphwidth": 300,
+			"glyphwidth": 350,
 			"leftsidebearing": false,
 			"rightsidebearing": false,
 			"ratiolock": false,
 			"maxes": {
-				"xmax": 300,
+				"xmax": 350,
 				"xmin": 0,
-				"ymax": 700,
+				"ymax": 900,
 				"ymin": 0
 			},
 			"shapes": [
@@ -44913,6 +45996,26 @@
 					"objtype": "componentinstance",
 					"link": "0x0049",
 					"name": "Instance of LATIN CAPITAL LETTER I",
+					"translatex": 25,
+					"translatey": 0,
+					"scalew": 0,
+					"scaleh": 0,
+					"flipew": false,
+					"flipns": false,
+					"reversewinding": false,
+					"rotation": 0,
+					"rotatefirst": false,
+					"xlock": false,
+					"ylock": false,
+					"wlock": false,
+					"hlock": false,
+					"ratiolock": false,
+					"visible": true
+				},
+				{
+					"objtype": "componentinstance",
+					"link": "com4",
+					"name": "Instance of Breve",
 					"translatex": 0,
 					"translatey": 0,
 					"scalew": 0,
@@ -46173,13 +47276,13 @@
 			"name": "LATIN SMALL LETTER L WITH STROKE",
 			"glyphhtml": "&#322;",
 			"isautowide": true,
-			"glyphwidth": 300,
+			"glyphwidth": 400,
 			"leftsidebearing": false,
 			"rightsidebearing": false,
 			"ratiolock": false,
 			"maxes": {
-				"xmax": 300,
-				"xmin": -100,
+				"xmax": 400,
+				"xmin": 0,
 				"ymax": 700,
 				"ymin": 0
 			},
@@ -46188,7 +47291,7 @@
 					"objtype": "componentinstance",
 					"link": "0x006C",
 					"name": "Instance of LATIN SMALL LETTER L",
-					"translatex": 0,
+					"translatex": 100,
 					"translatey": 0,
 					"scalew": 0,
 					"scaleh": 0,
@@ -46208,7 +47311,7 @@
 					"objtype": "componentinstance",
 					"link": "0x0337",
 					"name": "Instance of COMBINING SHORT SOLIDUS OVERLAY",
-					"translatex": 100,
+					"translatex": 200,
 					"translatey": 0,
 					"scalew": 0,
 					"scaleh": 0,
@@ -46228,7 +47331,7 @@
 					"objtype": "componentinstance",
 					"link": "com13",
 					"name": "Instance of Stroke",
-					"translatex": -100,
+					"translatex": 0,
 					"translatey": -400,
 					"scalew": 0,
 					"scaleh": 0,
@@ -51442,48 +52545,20 @@
 								"P": {
 									"objtype": "coord",
 									"x": 500,
-									"y": 150,
-									"xlock": false,
-									"ylock": false
-								},
-								"H1": {
-									"objtype": "coord",
-									"x": 500,
-									"y": 150,
-									"xlock": false,
-									"ylock": false
-								},
-								"H2": {
-									"objtype": "coord",
-									"x": 500,
-									"y": 150,
-									"xlock": false,
-									"ylock": false
-								},
-								"Q": false,
-								"type": "corner",
-								"useh1": false,
-								"useh2": false
-							},
-							{
-								"objtype": "pathpoint",
-								"P": {
-									"objtype": "coord",
-									"x": 350,
 									"y": 0,
 									"xlock": false,
 									"ylock": false
 								},
 								"H1": {
 									"objtype": "coord",
-									"x": 437.5,
+									"x": 587.5,
 									"y": 0,
 									"xlock": false,
 									"ylock": false
 								},
 								"H2": {
 									"objtype": "coord",
-									"x": 262.5,
+									"x": 412.5,
 									"y": 0,
 									"xlock": false,
 									"ylock": false
@@ -51553,21 +52628,21 @@
 								"objtype": "pathpoint",
 								"P": {
 									"objtype": "coord",
-									"x": 150,
+									"x": 0,
 									"y": 300,
 									"xlock": false,
 									"ylock": false
 								},
 								"H1": {
 									"objtype": "coord",
-									"x": 150,
+									"x": 0,
 									"y": 300,
 									"xlock": false,
 									"ylock": false
 								},
 								"H2": {
 									"objtype": "coord",
-									"x": 150,
+									"x": 0,
 									"y": 300,
 									"xlock": false,
 									"ylock": false
@@ -51631,50 +52706,22 @@
 								"objtype": "pathpoint",
 								"P": {
 									"objtype": "coord",
-									"x": 200,
+									"x": 100,
 									"y": 200,
 									"xlock": false,
 									"ylock": false
 								},
 								"H1": {
 									"objtype": "coord",
-									"x": 200,
+									"x": 100,
 									"y": 200,
 									"xlock": false,
 									"ylock": false
 								},
 								"H2": {
 									"objtype": "coord",
-									"x": 200,
+									"x": 100,
 									"y": 200,
-									"xlock": false,
-									"ylock": false
-								},
-								"Q": false,
-								"type": "corner",
-								"useh1": false,
-								"useh2": false
-							},
-							{
-								"objtype": "pathpoint",
-								"P": {
-									"objtype": "coord",
-									"x": 150,
-									"y": 150,
-									"xlock": false,
-									"ylock": false
-								},
-								"H1": {
-									"objtype": "coord",
-									"x": 150,
-									"y": 150,
-									"xlock": false,
-									"ylock": false
-								},
-								"H2": {
-									"objtype": "coord",
-									"x": 150,
-									"y": 150,
 									"xlock": false,
 									"ylock": false
 								},
@@ -51715,21 +52762,21 @@
 								"objtype": "pathpoint",
 								"P": {
 									"objtype": "coord",
-									"x": 300,
+									"x": 400,
 									"y": 100,
 									"xlock": false,
 									"ylock": false
 								},
 								"H1": {
 									"objtype": "coord",
-									"x": 300,
+									"x": 400,
 									"y": 100,
 									"xlock": false,
 									"ylock": false
 								},
 								"H2": {
 									"objtype": "coord",
-									"x": 300,
+									"x": 400,
 									"y": 100,
 									"xlock": false,
 									"ylock": false
@@ -51743,7 +52790,7 @@
 						"winding": 6,
 						"maxes": {
 							"xmax": 400,
-							"xmin": 150,
+							"xmin": 100,
 							"ymax": 200,
 							"ymin": 100
 						}
@@ -53232,21 +54279,21 @@
 								"objtype": "pathpoint",
 								"P": {
 									"objtype": "coord",
-									"x": 350,
+									"x": 500,
 									"y": 200,
 									"xlock": false,
 									"ylock": false
 								},
 								"H1": {
 									"objtype": "coord",
-									"x": 350,
+									"x": 500,
 									"y": 200,
 									"xlock": false,
 									"ylock": false
 								},
 								"H2": {
 									"objtype": "coord",
-									"x": 350,
+									"x": 500,
 									"y": 200,
 									"xlock": false,
 									"ylock": false
@@ -53450,50 +54497,22 @@
 								"objtype": "pathpoint",
 								"P": {
 									"objtype": "coord",
-									"x": 300,
+									"x": 400,
 									"y": 300,
 									"xlock": false,
 									"ylock": false
 								},
 								"H1": {
 									"objtype": "coord",
-									"x": 300,
+									"x": 400,
 									"y": 300,
 									"xlock": false,
 									"ylock": false
 								},
 								"H2": {
 									"objtype": "coord",
-									"x": 300,
+									"x": 400,
 									"y": 300,
-									"xlock": false,
-									"ylock": false
-								},
-								"Q": false,
-								"type": "corner",
-								"useh1": false,
-								"useh2": false
-							},
-							{
-								"objtype": "pathpoint",
-								"P": {
-									"objtype": "coord",
-									"x": 350,
-									"y": 350,
-									"xlock": false,
-									"ylock": false
-								},
-								"H1": {
-									"objtype": "coord",
-									"x": 350,
-									"y": 350,
-									"xlock": false,
-									"ylock": false
-								},
-								"H2": {
-									"objtype": "coord",
-									"x": 350,
-									"y": 350,
 									"xlock": false,
 									"ylock": false
 								},
@@ -53505,7 +54524,7 @@
 						],
 						"winding": 7,
 						"maxes": {
-							"xmax": 350,
+							"xmax": 400,
 							"xmin": 100,
 							"ymax": 400,
 							"ymin": 300
@@ -53606,21 +54625,21 @@
 								"objtype": "pathpoint",
 								"P": {
 									"objtype": "coord",
-									"x": 300,
+									"x": 400,
 									"y": 100,
 									"xlock": false,
 									"ylock": false
 								},
 								"H1": {
 									"objtype": "coord",
-									"x": 325,
-									"y": 50,
+									"x": 425,
+									"y": 49.999999999999986,
 									"xlock": false,
 									"ylock": false
 								},
 								"H2": {
 									"objtype": "coord",
-									"x": 300,
+									"x": 400,
 									"y": 100,
 									"xlock": false,
 									"ylock": false
@@ -53775,48 +54794,20 @@
 								"P": {
 									"objtype": "coord",
 									"x": 0,
-									"y": 550,
-									"xlock": false,
-									"ylock": false
-								},
-								"H1": {
-									"objtype": "coord",
-									"x": 0,
-									"y": 550,
-									"xlock": false,
-									"ylock": false
-								},
-								"H2": {
-									"objtype": "coord",
-									"x": 0,
-									"y": 550,
-									"xlock": false,
-									"ylock": false
-								},
-								"Q": false,
-								"type": "corner",
-								"useh1": false,
-								"useh2": false
-							},
-							{
-								"objtype": "pathpoint",
-								"P": {
-									"objtype": "coord",
-									"x": 150,
 									"y": 700,
 									"xlock": false,
 									"ylock": false
 								},
 								"H1": {
 									"objtype": "coord",
-									"x": 62.5,
+									"x": -87.49999999999997,
 									"y": 700,
 									"xlock": false,
 									"ylock": false
 								},
 								"H2": {
 									"objtype": "coord",
-									"x": 237.5,
+									"x": 87.5,
 									"y": 700,
 									"xlock": false,
 									"ylock": false
@@ -53971,48 +54962,20 @@
 								"P": {
 									"objtype": "coord",
 									"x": 500,
-									"y": 150,
-									"xlock": false,
-									"ylock": false
-								},
-								"H1": {
-									"objtype": "coord",
-									"x": 500,
-									"y": 150,
-									"xlock": false,
-									"ylock": false
-								},
-								"H2": {
-									"objtype": "coord",
-									"x": 500,
-									"y": 150,
-									"xlock": false,
-									"ylock": false
-								},
-								"Q": false,
-								"type": "corner",
-								"useh1": false,
-								"useh2": false
-							},
-							{
-								"objtype": "pathpoint",
-								"P": {
-									"objtype": "coord",
-									"x": 350,
 									"y": 0,
 									"xlock": false,
 									"ylock": false
 								},
 								"H1": {
 									"objtype": "coord",
-									"x": 350,
+									"x": 500,
 									"y": 0,
 									"xlock": false,
 									"ylock": false
 								},
 								"H2": {
 									"objtype": "coord",
-									"x": 350,
+									"x": 500,
 									"y": 0,
 									"xlock": false,
 									"ylock": false
@@ -54076,55 +55039,27 @@
 								"objtype": "pathpoint",
 								"P": {
 									"objtype": "coord",
-									"x": 200,
+									"x": 100,
 									"y": 600,
 									"xlock": false,
 									"ylock": false
 								},
 								"H1": {
 									"objtype": "coord",
-									"x": 200,
+									"x": 100,
 									"y": 600,
 									"xlock": false,
 									"ylock": false
 								},
 								"H2": {
 									"objtype": "coord",
-									"x": 200,
+									"x": 100,
 									"y": 600,
 									"xlock": false,
 									"ylock": false
 								},
 								"Q": false,
 								"type": "corner",
-								"useh1": false,
-								"useh2": false
-							},
-							{
-								"objtype": "pathpoint",
-								"P": {
-									"objtype": "coord",
-									"x": 100,
-									"y": 500,
-									"xlock": false,
-									"ylock": false
-								},
-								"H1": {
-									"objtype": "coord",
-									"x": 100,
-									"y": 550,
-									"xlock": false,
-									"ylock": false
-								},
-								"H2": {
-									"objtype": "coord",
-									"x": 100,
-									"y": 450,
-									"xlock": false,
-									"ylock": false
-								},
-								"Q": false,
-								"type": "flat",
 								"useh1": false,
 								"useh2": false
 							},
@@ -55503,48 +56438,20 @@
 								"P": {
 									"objtype": "coord",
 									"x": 500,
-									"y": 250,
-									"xlock": false,
-									"ylock": false
-								},
-								"H1": {
-									"objtype": "coord",
-									"x": 500,
-									"y": 250,
-									"xlock": false,
-									"ylock": false
-								},
-								"H2": {
-									"objtype": "coord",
-									"x": 500,
-									"y": 250,
-									"xlock": false,
-									"ylock": false
-								},
-								"Q": false,
-								"type": "corner",
-								"useh1": false,
-								"useh2": false
-							},
-							{
-								"objtype": "pathpoint",
-								"P": {
-									"objtype": "coord",
-									"x": 350,
 									"y": 100,
 									"xlock": false,
 									"ylock": false
 								},
 								"H1": {
 									"objtype": "coord",
-									"x": 350,
+									"x": 500,
 									"y": 100,
 									"xlock": false,
 									"ylock": false
 								},
 								"H2": {
 									"objtype": "coord",
-									"x": 350,
+									"x": 500,
 									"y": 100,
 									"xlock": false,
 									"ylock": false
@@ -55748,21 +56655,21 @@
 								"objtype": "pathpoint",
 								"P": {
 									"objtype": "coord",
-									"x": 300,
+									"x": 400,
 									"y": 200,
 									"xlock": false,
 									"ylock": false
 								},
 								"H1": {
 									"objtype": "coord",
-									"x": 300,
+									"x": 400,
 									"y": 200,
 									"xlock": false,
 									"ylock": false
 								},
 								"H2": {
 									"objtype": "coord",
-									"x": 300,
+									"x": 400,
 									"y": 200,
 									"xlock": false,
 									"ylock": false
@@ -55846,7 +56753,7 @@
 					"translatey": -100,
 					"scalew": 0,
 					"scaleh": 0,
-					"flipew": false,
+					"flipew": true,
 					"flipns": true,
 					"reversewinding": false,
 					"rotation": 0,
@@ -58763,21 +59670,21 @@
 								"objtype": "pathpoint",
 								"P": {
 									"objtype": "coord",
-									"x": 350,
+									"x": 500,
 									"y": 0,
 									"xlock": false,
 									"ylock": false
 								},
 								"H1": {
 									"objtype": "coord",
-									"x": 350,
+									"x": 500,
 									"y": 0,
 									"xlock": false,
 									"ylock": false
 								},
 								"H2": {
 									"objtype": "coord",
-									"x": 350,
+									"x": 500,
 									"y": 0,
 									"xlock": false,
 									"ylock": false
@@ -58847,50 +59754,22 @@
 								"objtype": "pathpoint",
 								"P": {
 									"objtype": "coord",
-									"x": 300,
+									"x": 400,
 									"y": 100,
 									"xlock": false,
 									"ylock": false
 								},
 								"H1": {
 									"objtype": "coord",
-									"x": 300,
+									"x": 400,
 									"y": 100,
 									"xlock": false,
 									"ylock": false
 								},
 								"H2": {
 									"objtype": "coord",
-									"x": 300,
+									"x": 400,
 									"y": 100,
-									"xlock": false,
-									"ylock": false
-								},
-								"Q": false,
-								"type": "corner",
-								"useh1": false,
-								"useh2": false
-							},
-							{
-								"objtype": "pathpoint",
-								"P": {
-									"objtype": "coord",
-									"x": 350,
-									"y": 150,
-									"xlock": false,
-									"ylock": false
-								},
-								"H1": {
-									"objtype": "coord",
-									"x": 350,
-									"y": 150,
-									"xlock": false,
-									"ylock": false
-								},
-								"H2": {
-									"objtype": "coord",
-									"x": 350,
-									"y": 150,
 									"xlock": false,
 									"ylock": false
 								},
@@ -59043,21 +59922,21 @@
 								"objtype": "pathpoint",
 								"P": {
 									"objtype": "coord",
-									"x": 150,
+									"x": 0,
 									"y": 700,
 									"xlock": false,
 									"ylock": false
 								},
 								"H1": {
 									"objtype": "coord",
-									"x": 150,
+									"x": 0,
 									"y": 700,
 									"xlock": false,
 									"ylock": false
 								},
 								"H2": {
 									"objtype": "coord",
-									"x": 150,
+									"x": 0,
 									"y": 700,
 									"xlock": false,
 									"ylock": false
@@ -59127,50 +60006,22 @@
 								"objtype": "pathpoint",
 								"P": {
 									"objtype": "coord",
-									"x": 200,
+									"x": 100,
 									"y": 600,
 									"xlock": false,
 									"ylock": false
 								},
 								"H1": {
 									"objtype": "coord",
-									"x": 200,
+									"x": 100,
 									"y": 600,
 									"xlock": false,
 									"ylock": false
 								},
 								"H2": {
 									"objtype": "coord",
-									"x": 200,
+									"x": 100,
 									"y": 600,
-									"xlock": false,
-									"ylock": false
-								},
-								"Q": false,
-								"type": "corner",
-								"useh1": false,
-								"useh2": false
-							},
-							{
-								"objtype": "pathpoint",
-								"P": {
-									"objtype": "coord",
-									"x": 150,
-									"y": 550,
-									"xlock": false,
-									"ylock": false
-								},
-								"H1": {
-									"objtype": "coord",
-									"x": 150,
-									"y": 550,
-									"xlock": false,
-									"ylock": false
-								},
-								"H2": {
-									"objtype": "coord",
-									"x": 150,
-									"y": 550,
 									"xlock": false,
 									"ylock": false
 								},
@@ -62136,21 +62987,21 @@
 								"P": {
 									"objtype": "coord",
 									"x": 0,
-									"y": 500,
+									"y": 700,
 									"xlock": false,
 									"ylock": false
 								},
 								"H1": {
 									"objtype": "coord",
 									"x": 0,
-									"y": 500,
+									"y": 700,
 									"xlock": false,
 									"ylock": false
 								},
 								"H2": {
 									"objtype": "coord",
 									"x": 0,
-									"y": 500,
+									"y": 700,
 									"xlock": false,
 									"ylock": false
 								},
@@ -62163,21 +63014,77 @@
 								"objtype": "pathpoint",
 								"P": {
 									"objtype": "coord",
-									"x": 200,
+									"x": 250,
 									"y": 700,
 									"xlock": false,
 									"ylock": false
 								},
 								"H1": {
 									"objtype": "coord",
-									"x": 200,
+									"x": 143.74999999999994,
 									"y": 700,
 									"xlock": false,
 									"ylock": false
 								},
 								"H2": {
 									"objtype": "coord",
-									"x": 200,
+									"x": 303.125,
+									"y": 700,
+									"xlock": false,
+									"ylock": false
+								},
+								"Q": false,
+								"type": "flat",
+								"useh1": false,
+								"useh2": false
+							},
+							{
+								"objtype": "pathpoint",
+								"P": {
+									"objtype": "coord",
+									"x": 425,
+									"y": 525,
+									"xlock": false,
+									"ylock": false
+								},
+								"H1": {
+									"objtype": "coord",
+									"x": 385.156,
+									"y": 525,
+									"xlock": false,
+									"ylock": false
+								},
+								"H2": {
+									"objtype": "coord",
+									"x": 464.844,
+									"y": 525,
+									"xlock": false,
+									"ylock": false
+								},
+								"Q": false,
+								"type": "flat",
+								"useh1": false,
+								"useh2": false
+							},
+							{
+								"objtype": "pathpoint",
+								"P": {
+									"objtype": "coord",
+									"x": 425,
+									"y": 700,
+									"xlock": false,
+									"ylock": false
+								},
+								"H1": {
+									"objtype": "coord",
+									"x": 425,
+									"y": 700,
+									"xlock": false,
+									"ylock": false
+								},
+								"H2": {
+									"objtype": "coord",
+									"x": 425,
 									"y": 700,
 									"xlock": false,
 									"ylock": false
@@ -62633,50 +63540,22 @@
 								"objtype": "pathpoint",
 								"P": {
 									"objtype": "coord",
-									"x": 250,
+									"x": 100,
 									"y": 600,
 									"xlock": false,
 									"ylock": false
 								},
 								"H1": {
 									"objtype": "coord",
-									"x": 250,
+									"x": 100,
 									"y": 600,
 									"xlock": false,
 									"ylock": false
 								},
 								"H2": {
 									"objtype": "coord",
-									"x": 250,
+									"x": 100,
 									"y": 600,
-									"xlock": false,
-									"ylock": false
-								},
-								"Q": false,
-								"type": "corner",
-								"useh1": false,
-								"useh2": false
-							},
-							{
-								"objtype": "pathpoint",
-								"P": {
-									"objtype": "coord",
-									"x": 100,
-									"y": 450,
-									"xlock": false,
-									"ylock": false
-								},
-								"H1": {
-									"objtype": "coord",
-									"x": 100,
-									"y": 450,
-									"xlock": false,
-									"ylock": false
-								},
-								"H2": {
-									"objtype": "coord",
-									"x": 100,
-									"y": 450,
 									"xlock": false,
 									"ylock": false
 								},
@@ -62745,21 +63624,21 @@
 								"objtype": "pathpoint",
 								"P": {
 									"objtype": "coord",
-									"x": 400,
+									"x": 200,
 									"y": 600,
 									"xlock": false,
 									"ylock": false
 								},
 								"H1": {
 									"objtype": "coord",
-									"x": 400,
+									"x": 200,
 									"y": 600,
 									"xlock": false,
 									"ylock": false
 								},
 								"H2": {
 									"objtype": "coord",
-									"x": 400,
+									"x": 200,
 									"y": 600,
 									"xlock": false,
 									"ylock": false
@@ -69008,12 +69887,12 @@
 			"name": "LATIN SMALL LETTER LONG S",
 			"glyphhtml": "&#383;",
 			"isautowide": true,
-			"glyphwidth": 500,
+			"glyphwidth": 350,
 			"leftsidebearing": false,
 			"rightsidebearing": false,
 			"ratiolock": false,
 			"maxes": {
-				"xmax": 500,
+				"xmax": 350,
 				"xmin": 0,
 				"ymax": 700,
 				"ymin": 0
@@ -69057,77 +69936,21 @@
 								"objtype": "pathpoint",
 								"P": {
 									"objtype": "coord",
-									"x": 500,
-									"y": 550,
-									"xlock": false,
-									"ylock": false
-								},
-								"H1": {
-									"objtype": "coord",
-									"x": 500,
-									"y": 550,
-									"xlock": false,
-									"ylock": false
-								},
-								"H2": {
-									"objtype": "coord",
-									"x": 500,
-									"y": 550,
-									"xlock": false,
-									"ylock": false
-								},
-								"Q": false,
-								"type": "corner",
-								"useh1": false,
-								"useh2": false
-							},
-							{
-								"objtype": "pathpoint",
-								"P": {
-									"objtype": "coord",
-									"x": 425,
-									"y": 475,
-									"xlock": false,
-									"ylock": false
-								},
-								"H1": {
-									"objtype": "coord",
-									"x": 425,
-									"y": 475,
-									"xlock": false,
-									"ylock": false
-								},
-								"H2": {
-									"objtype": "coord",
-									"x": 425,
-									"y": 475,
-									"xlock": false,
-									"ylock": false
-								},
-								"Q": false,
-								"type": "corner",
-								"useh1": false,
-								"useh2": false
-							},
-							{
-								"objtype": "pathpoint",
-								"P": {
-									"objtype": "coord",
-									"x": 300,
+									"x": 350,
 									"y": 600,
 									"xlock": false,
 									"ylock": false
 								},
 								"H1": {
 									"objtype": "coord",
-									"x": 300,
+									"x": 350,
 									"y": 600,
 									"xlock": false,
 									"ylock": false
 								},
 								"H2": {
 									"objtype": "coord",
-									"x": 300,
+									"x": 350,
 									"y": 600,
 									"xlock": false,
 									"ylock": false
@@ -69308,7 +70131,7 @@
 						],
 						"winding": -5,
 						"maxes": {
-							"xmax": 500,
+							"xmax": 350,
 							"xmin": 0,
 							"ymax": 700,
 							"ymin": 0
@@ -71918,48 +72741,20 @@
 								"P": {
 									"objtype": "coord",
 									"x": 0,
-									"y": 550,
-									"xlock": false,
-									"ylock": false
-								},
-								"H1": {
-									"objtype": "coord",
-									"x": 0,
-									"y": 550,
-									"xlock": false,
-									"ylock": false
-								},
-								"H2": {
-									"objtype": "coord",
-									"x": 0,
-									"y": 550,
-									"xlock": false,
-									"ylock": false
-								},
-								"Q": false,
-								"type": "corner",
-								"useh1": false,
-								"useh2": false
-							},
-							{
-								"objtype": "pathpoint",
-								"P": {
-									"objtype": "coord",
-									"x": 150,
 									"y": 700,
 									"xlock": false,
 									"ylock": false
 								},
 								"H1": {
 									"objtype": "coord",
-									"x": 150,
+									"x": 0,
 									"y": 700,
 									"xlock": false,
 									"ylock": false
 								},
 								"H2": {
 									"objtype": "coord",
-									"x": 150,
+									"x": 0,
 									"y": 700,
 									"xlock": false,
 									"ylock": false
@@ -72359,50 +73154,22 @@
 								"objtype": "pathpoint",
 								"P": {
 									"objtype": "coord",
-									"x": 200,
+									"x": 100,
 									"y": 600,
 									"xlock": false,
 									"ylock": false
 								},
 								"H1": {
 									"objtype": "coord",
-									"x": 200,
+									"x": 100,
 									"y": 600,
 									"xlock": false,
 									"ylock": false
 								},
 								"H2": {
 									"objtype": "coord",
-									"x": 200,
+									"x": 100,
 									"y": 600,
-									"xlock": false,
-									"ylock": false
-								},
-								"Q": false,
-								"type": "corner",
-								"useh1": false,
-								"useh2": false
-							},
-							{
-								"objtype": "pathpoint",
-								"P": {
-									"objtype": "coord",
-									"x": 100,
-									"y": 500,
-									"xlock": false,
-									"ylock": false
-								},
-								"H1": {
-									"objtype": "coord",
-									"x": 100,
-									"y": 500,
-									"xlock": false,
-									"ylock": false
-								},
-								"H2": {
-									"objtype": "coord",
-									"x": 100,
-									"y": 500,
 									"xlock": false,
 									"ylock": false
 								},
@@ -72458,34 +73225,6 @@
 								"H2": {
 									"objtype": "coord",
 									"x": 200,
-									"y": 100,
-									"xlock": false,
-									"ylock": false
-								},
-								"Q": false,
-								"type": "corner",
-								"useh1": false,
-								"useh2": false
-							},
-							{
-								"objtype": "pathpoint",
-								"P": {
-									"objtype": "coord",
-									"x": 300,
-									"y": 100,
-									"xlock": false,
-									"ylock": false
-								},
-								"H1": {
-									"objtype": "coord",
-									"x": 300,
-									"y": 100,
-									"xlock": false,
-									"ylock": false
-								},
-								"H2": {
-									"objtype": "coord",
-									"x": 300,
 									"y": 100,
 									"xlock": false,
 									"ylock": false
@@ -72500,21 +73239,21 @@
 								"P": {
 									"objtype": "coord",
 									"x": 400,
-									"y": 200,
+									"y": 100,
 									"xlock": false,
 									"ylock": false
 								},
 								"H1": {
 									"objtype": "coord",
 									"x": 400,
-									"y": 200,
+									"y": 100,
 									"xlock": false,
 									"ylock": false
 								},
 								"H2": {
 									"objtype": "coord",
 									"x": 400,
-									"y": 200,
+									"y": 100,
 									"xlock": false,
 									"ylock": false
 								},
@@ -72600,132 +73339,20 @@
 								"P": {
 									"objtype": "coord",
 									"x": 0,
-									"y": 350,
+									"y": 500,
 									"xlock": false,
 									"ylock": false
 								},
 								"H1": {
 									"objtype": "coord",
 									"x": 0,
-									"y": 350,
+									"y": 500,
 									"xlock": false,
 									"ylock": false
 								},
 								"H2": {
 									"objtype": "coord",
 									"x": 0,
-									"y": 350,
-									"xlock": false,
-									"ylock": false
-								},
-								"Q": false,
-								"type": "corner",
-								"useh1": false,
-								"useh2": false
-							},
-							{
-								"objtype": "pathpoint",
-								"P": {
-									"objtype": "coord",
-									"x": 150,
-									"y": 500,
-									"xlock": false,
-									"ylock": false
-								},
-								"H1": {
-									"objtype": "coord",
-									"x": 150,
-									"y": 500,
-									"xlock": false,
-									"ylock": false
-								},
-								"H2": {
-									"objtype": "coord",
-									"x": 150,
-									"y": 500,
-									"xlock": false,
-									"ylock": false
-								},
-								"Q": false,
-								"type": "corner",
-								"useh1": false,
-								"useh2": false
-							},
-							{
-								"objtype": "pathpoint",
-								"P": {
-									"objtype": "coord",
-									"x": 350,
-									"y": 500,
-									"xlock": false,
-									"ylock": false
-								},
-								"H1": {
-									"objtype": "coord",
-									"x": 350,
-									"y": 500,
-									"xlock": false,
-									"ylock": false
-								},
-								"H2": {
-									"objtype": "coord",
-									"x": 350,
-									"y": 500,
-									"xlock": false,
-									"ylock": false
-								},
-								"Q": false,
-								"type": "corner",
-								"useh1": false,
-								"useh2": false
-							},
-							{
-								"objtype": "pathpoint",
-								"P": {
-									"objtype": "coord",
-									"x": 450,
-									"y": 400,
-									"xlock": false,
-									"ylock": false
-								},
-								"H1": {
-									"objtype": "coord",
-									"x": 406.3813835429714,
-									"y": 443.7580460425104,
-									"xlock": false,
-									"ylock": false
-								},
-								"H2": {
-									"objtype": "coord",
-									"x": 493.6375083381156,
-									"y": 443.6375083381156,
-									"xlock": false,
-									"ylock": false
-								},
-								"Q": false,
-								"type": "corner",
-								"useh1": false,
-								"useh2": false
-							},
-							{
-								"objtype": "pathpoint",
-								"P": {
-									"objtype": "coord",
-									"x": 550,
-									"y": 500,
-									"xlock": false,
-									"ylock": false
-								},
-								"H1": {
-									"objtype": "coord",
-									"x": 550,
-									"y": 500,
-									"xlock": false,
-									"ylock": false
-								},
-								"H2": {
-									"objtype": "coord",
-									"x": 550,
 									"y": 500,
 									"xlock": false,
 									"ylock": false
@@ -73125,21 +73752,21 @@
 								"objtype": "pathpoint",
 								"P": {
 									"objtype": "coord",
-									"x": 600,
+									"x": 500,
 									"y": 400,
 									"xlock": false,
 									"ylock": false
 								},
 								"H1": {
 									"objtype": "coord",
-									"x": 600,
+									"x": 500,
 									"y": 400,
 									"xlock": false,
 									"ylock": false
 								},
 								"H2": {
 									"objtype": "coord",
-									"x": 600,
+									"x": 500,
 									"y": 400,
 									"xlock": false,
 									"ylock": false
@@ -73259,50 +73886,22 @@
 								"objtype": "pathpoint",
 								"P": {
 									"objtype": "coord",
-									"x": 200,
+									"x": 100,
 									"y": 400,
 									"xlock": false,
 									"ylock": false
 								},
 								"H1": {
 									"objtype": "coord",
-									"x": 200,
+									"x": 100,
 									"y": 400,
 									"xlock": false,
 									"ylock": false
 								},
 								"H2": {
 									"objtype": "coord",
-									"x": 200,
+									"x": 100,
 									"y": 400,
-									"xlock": false,
-									"ylock": false
-								},
-								"Q": false,
-								"type": "corner",
-								"useh1": false,
-								"useh2": false
-							},
-							{
-								"objtype": "pathpoint",
-								"P": {
-									"objtype": "coord",
-									"x": 100,
-									"y": 300,
-									"xlock": false,
-									"ylock": false
-								},
-								"H1": {
-									"objtype": "coord",
-									"x": 100,
-									"y": 300,
-									"xlock": false,
-									"ylock": false
-								},
-								"H2": {
-									"objtype": "coord",
-									"x": 100,
-									"y": 300,
 									"xlock": false,
 									"ylock": false
 								},
@@ -74568,7 +75167,9 @@
 		"kern1": {
 			"objtype": "hkern",
 			"leftgroup": [
-				"0x0054"
+				"0x0054",
+				"0x0162",
+				"0x0164"
 			],
 			"rightgroup": [
 				"0x0061",
@@ -74592,19 +75193,26 @@
 				"0x0071",
 				"0x0070",
 				"0x002F",
-				"0x002E",
-				"0x002C",
-				"0x002D"
+				"0x002D",
+				"0x00BF",
+				"0x00E7",
+				"0x0119",
+				"0x015F",
+				"0x0153",
+				"0x00F8"
 			],
 			"value": 150
 		},
 		"kern2": {
 			"objtype": "hkern",
 			"leftgroup": [
-				"0x004C"
+				"0x004C",
+				"0x0139",
+				"0x013B"
 			],
 			"rightgroup": [
 				"0x0054",
+				"0x003F",
 				"0x002D",
 				"0x005C",
 				"0x0037",
@@ -74616,25 +75224,32 @@
 		"kern3": {
 			"objtype": "hkern",
 			"leftgroup": [
-				"0x0066"
+				"0x0066",
+				"0x0037",
+				"0x003F",
+				"0x00F7"
 			],
 			"rightgroup": [
-				"0x002E",
-				"0x002C",
 				"0x004A",
-				"0x006A"
+				"0x006A",
+				"0x0134",
+				"0x0135"
 			],
 			"value": 150
 		},
 		"kern4": {
 			"objtype": "hkern",
 			"leftgroup": [
-				"0x006C"
+				"0x004C",
+				"0x0139",
+				"0x013B",
+				"0x0141",
+				"0x006C",
+				"0x013A",
+				"0x013C"
 			],
 			"rightgroup": [
 				"0x0074",
-				"0x0054",
-				"0x002D",
 				"0x0076",
 				"0x0056",
 				"0x0071"
@@ -74657,45 +75272,33 @@
 			"objtype": "hkern",
 			"leftgroup": [
 				"0x0046",
-				"0x0050"
-			],
-			"rightgroup": [
-				"0x006A",
-				"0x004A"
-			],
-			"value": 300
-		},
-		"kern7": {
-			"objtype": "hkern",
-			"leftgroup": [
-				"0x0059"
-			],
-			"rightgroup": [
-				"0x002E",
-				"0x002C",
-				"0x002F",
+				"0x0050",
+				"0x002A",
 				"0x002D",
-				"0x0071",
-				"0x0064",
+				"0x002F",
+				"0x00AA"
+			],
+			"rightgroup": [
 				"0x004A",
 				"0x006A",
-				"0x006F",
-				"0x0065",
-				"0x0061",
-				"0x0063",
-				"0x0073",
-				"0x0067"
+				"0x0134",
+				"0x0135"
 			],
-			"value": 150
+			"value": 300
 		},
 		"kern8": {
 			"objtype": "hkern",
 			"leftgroup": [
-				"0x0072"
+				"0x0072",
+				"0x0155",
+				"0x0157",
+				"0x0159"
 			],
 			"rightgroup": [
 				"0x004A",
-				"0x006A"
+				"0x006A",
+				"0x0134",
+				"0x0135"
 			],
 			"value": 350
 		},
@@ -74704,16 +75307,26 @@
 			"leftgroup": [
 				"0x0061",
 				"0x0062",
-				"0x0063",
 				"0x0065",
-				"0x0067",
+				"0x0068",
 				"0x006D",
 				"0x006E",
 				"0x006F",
 				"0x0070",
-				"0x0071",
-				"0x0068",
 				"0x0072",
+				"0x00BF",
+				"0x00DE",
+				"0x00FE",
+				"0x0105",
+				"0x0119",
+				"0x0146",
+				"0x0149",
+				"0x0157",
+				"0x0153",
+				"0x0063",
+				"0x0067",
+				"0x006B",
+				"0x0071",
 				"0x0073",
 				"0x0075",
 				"0x0076",
@@ -74721,24 +75334,184 @@
 				"0x0078",
 				"0x0079",
 				"0x007A",
+				"0x00B5",
+				"0x00E7",
+				"0x0138",
+				"0x015F",
+				"0x0173",
 				"0x002D",
-				"0x002E",
-				"0x002C",
 				"0x005C"
 			],
 			"rightgroup": [
-				"0x0054"
+				"0x0054",
+				"0x0162",
+				"0x0164"
 			],
 			"value": 150
 		},
 		"kern11": {
 			"objtype": "hkern",
 			"leftgroup": [
+				"0x0046",
+				"0x0050",
+				"0x0066",
+				"0x0072",
+				"0x0037",
 				"0x003E",
 				"0x002F",
+				"0x0059",
+				"0x00DD",
+				"0x0176",
+				"0x0178",
+				"0x0054",
+				"0x0162",
+				"0x0164"
+			],
+			"rightgroup": [
+				"0x002E",
+				"0x002C"
+			],
+			"value": 150
+		},
+		"kern9": {
+			"objtype": "hkern",
+			"leftgroup": [
+				"0x00EF",
+				"0x00EE",
+				"0x0059",
+				"0x00DD",
+				"0x0176",
+				"0x0178"
+			],
+			"rightgroup": [
+				"0x0061",
+				"0x0066",
+				"0x006D",
+				"0x006E",
+				"0x0070",
 				"0x0072",
-				"0x0046",
-				"0x0050"
+				"0x0074",
+				"0x0075",
+				"0x0076",
+				"0x0077",
+				"0x0078",
+				"0x0079",
+				"0x007A",
+				"0x00B5",
+				"0x00E6",
+				"0x0105",
+				"0x0138",
+				"0x0146",
+				"0x0157",
+				"0x0173",
+				"0x0063",
+				"0x0064",
+				"0x0065",
+				"0x0067",
+				"0x006F",
+				"0x0071",
+				"0x0073",
+				"0x002F",
+				"0x002D",
+				"0x00E7",
+				"0x0119",
+				"0x015F",
+				"0x0153",
+				"0x004A",
+				"0x006A",
+				"0x00BF",
+				"0x0134",
+				"0x0135",
+				"0x00F7",
+				"0x00F8"
+			],
+			"value": 50
+		},
+		"kern12": {
+			"objtype": "hkern",
+			"leftgroup": [
+				"0x0045",
+				"0x0049",
+				"0x005A",
+				"0x00BF",
+				"0x00C6",
+				"0x00C8",
+				"0x00C9",
+				"0x00CA",
+				"0x00CB",
+				"0x00CC",
+				"0x00CD",
+				"0x00CE",
+				"0x00CF"
+			],
+			"rightgroup": [
+				"0x0066",
+				"0x0074",
+				"0x0071",
+				"0x002D",
+				"0x00F7",
+				"0x0142"
+			],
+			"value": 50
+		},
+		"kern13": {
+			"objtype": "hkern",
+			"leftgroup": [
+				"0x0072",
+				"0x0076",
+				"0x002D",
+				"0x00F7",
+				"0x0142"
+			],
+			"rightgroup": [
+				"0x0049",
+				"0x0033",
+				"0x00BF",
+				"0x00CC",
+				"0x00CD",
+				"0x00CE",
+				"0x00CF"
+			],
+			"value": 50
+		},
+		"kern14": {
+			"objtype": "hkern",
+			"leftgroup": [
+				"0x002E",
+				"0x002C"
+			],
+			"rightgroup": [
+				"0x0056",
+				"0x0076",
+				"0x0066",
+				"0x0037",
+				"0x002A",
+				"0x0054",
+				"0x0162",
+				"0x0164",
+				"0x0059",
+				"0x00DD",
+				"0x0176",
+				"0x0178",
+				"0x00F7"
+			],
+			"value": 50
+		},
+		"kern15": {
+			"objtype": "hkern",
+			"leftgroup": [
+				"0x002E",
+				"0x002C"
+			],
+			"rightgroup": [
+				"0x003F"
+			],
+			"value": 200
+		},
+		"kern16": {
+			"objtype": "hkern",
+			"leftgroup": [
+				"0x003F"
 			],
 			"rightgroup": [
 				"0x002E",
@@ -74746,23 +75519,147 @@
 			],
 			"value": 100
 		},
-		"kern9": {
+		"kern17": {
 			"objtype": "hkern",
 			"leftgroup": [
-				"0x0059"
+				"0x0061",
+				"0x0062",
+				"0x0065",
+				"0x0068",
+				"0x006D",
+				"0x006E",
+				"0x006F",
+				"0x0070",
+				"0x0072",
+				"0x00BF",
+				"0x00DE",
+				"0x00FE",
+				"0x0105",
+				"0x0119",
+				"0x0146",
+				"0x0149",
+				"0x0157",
+				"0x0153"
 			],
 			"rightgroup": [
-				"0x0070",
-				"0x006E",
-				"0x0075",
-				"0x0072",
+				"0x003F",
+				"0x005C"
+			],
+			"value": 100
+		},
+		"kern18": {
+			"objtype": "hkern",
+			"leftgroup": [
+				"0x0061",
+				"0x0062",
+				"0x0065",
+				"0x0068",
 				"0x006D",
-				"0x0079",
-				"0x007A",
-				"0x0078",
-				"0x0076"
+				"0x006E",
+				"0x006F",
+				"0x0070",
+				"0x0072",
+				"0x00BF",
+				"0x00DE",
+				"0x00FE",
+				"0x0105",
+				"0x0119",
+				"0x0146",
+				"0x0149",
+				"0x0157",
+				"0x0153"
+			],
+			"rightgroup": [
+				"0x00EC",
+				"0x00EF",
+				"0x00EE"
 			],
 			"value": 50
+		},
+		"kern19": {
+			"objtype": "hkern",
+			"leftgroup": [
+				"0x0061",
+				"0x0062",
+				"0x0065",
+				"0x0068",
+				"0x006D",
+				"0x006E",
+				"0x006F",
+				"0x0070",
+				"0x0072",
+				"0x00BF",
+				"0x00DE",
+				"0x00FE",
+				"0x0105",
+				"0x0119",
+				"0x0146",
+				"0x0149",
+				"0x0157",
+				"0x0153"
+			],
+			"rightgroup": [
+				"0x0059",
+				"0x00DD",
+				"0x0176",
+				"0x0178"
+			],
+			"value": 150
+		},
+		"kern21": {
+			"objtype": "hkern",
+			"leftgroup": [
+				"0x0061",
+				"0x0062",
+				"0x0065",
+				"0x0068",
+				"0x006D",
+				"0x006E",
+				"0x006F",
+				"0x0070",
+				"0x0072",
+				"0x00DE",
+				"0x00FE",
+				"0x0105",
+				"0x0119",
+				"0x0146",
+				"0x0149",
+				"0x0157",
+				"0x0153"
+			],
+			"rightgroup": [
+				"0x0066",
+				"0x0074",
+				"0x0163",
+				"0x0165",
+				"0x0037",
+				"0x0027"
+			],
+			"value": 25
+		},
+		"kern22": {
+			"objtype": "hkern",
+			"leftgroup": [
+				"0x0066",
+				"0x0027"
+			],
+			"rightgroup": [
+				"0x0073",
+				"0x015F"
+			],
+			"value": 25
+		},
+		"kern24": {
+			"objtype": "hkern",
+			"leftgroup": [
+				"0x0041"
+			],
+			"rightgroup": [
+				"0x0054",
+				"0x0162",
+				"0x0164"
+			],
+			"value": 100
 		}
 	},
 	"components": {
@@ -75642,6 +76539,7 @@
 				"0x0103",
 				"0x011E",
 				"0x011F",
+				"0x012C",
 				"0x012D",
 				"0x014E",
 				"0x014F",
