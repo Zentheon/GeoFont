@@ -217,21 +217,21 @@
 		"panose_1": "2 0 5 3 0 0 0 0 0 0",
 		"designer": "Xetheon",
 		"designerURL": "https://github.com/Xetheon",
-		"manufacturer": "\"\"",
-		"manufacturerURL": "\"\"",
+		"manufacturer": "",
+		"manufacturerURL": "",
 		"license": "OFL",
 		"licenseURL": "https://github.com/Xetheon/GeoFont/blob/main/LICENSE",
 		"version": "1.1",
 		"description": "A simple font centered around sharp geometry.",
 		"copyright": "Copyright (c) 2023 Xetheon",
-		"trademark": "\"\"",
+		"trademark": "",
 		"svg": "{{sectionbreak}}",
 		"font_variant": "normal",
 		"font_weight": "400",
 		"font_stretch": "normal",
-		"stemv": "\"\"",
-		"stemh": "\"\"",
-		"slope": "\"\"",
+		"stemv": "",
+		"stemh": "",
+		"slope": "",
 		"underline_position": -50,
 		"underline_thickness": 10,
 		"strikethrough_position": 300,
@@ -21922,22 +21922,22 @@
 								"objtype": "pathpoint",
 								"P": {
 									"objtype": "coord",
-									"x": 400,
-									"y": 350,
+									"x": 375,
+									"y": 325,
 									"xlock": false,
 									"ylock": false
 								},
 								"H1": {
 									"objtype": "coord",
-									"x": 400,
-									"y": 350,
+									"x": 375,
+									"y": 325,
 									"xlock": false,
 									"ylock": false
 								},
 								"H2": {
 									"objtype": "coord",
-									"x": 400,
-									"y": 350,
+									"x": 375,
+									"y": 325,
 									"xlock": false,
 									"ylock": false
 								},
@@ -21951,104 +21951,20 @@
 								"P": {
 									"objtype": "coord",
 									"x": 500,
-									"y": 250,
-									"xlock": false,
-									"ylock": false
-								},
-								"H1": {
-									"objtype": "coord",
-									"x": 500,
-									"y": 250,
-									"xlock": false,
-									"ylock": false
-								},
-								"H2": {
-									"objtype": "coord",
-									"x": 500,
-									"y": 250,
-									"xlock": false,
-									"ylock": false
-								},
-								"Q": false,
-								"type": "corner",
-								"useh1": false,
-								"useh2": false
-							},
-							{
-								"objtype": "pathpoint",
-								"P": {
-									"objtype": "coord",
-									"x": 500,
-									"y": 0,
-									"xlock": false,
-									"ylock": false
-								},
-								"H1": {
-									"objtype": "coord",
-									"x": 500,
-									"y": 0,
-									"xlock": false,
-									"ylock": false
-								},
-								"H2": {
-									"objtype": "coord",
-									"x": 500,
-									"y": 0,
-									"xlock": false,
-									"ylock": false
-								},
-								"Q": false,
-								"type": "corner",
-								"useh1": false,
-								"useh2": false
-							},
-							{
-								"objtype": "pathpoint",
-								"P": {
-									"objtype": "coord",
-									"x": 400,
-									"y": 0,
-									"xlock": false,
-									"ylock": false
-								},
-								"H1": {
-									"objtype": "coord",
-									"x": 400,
-									"y": 0,
-									"xlock": false,
-									"ylock": false
-								},
-								"H2": {
-									"objtype": "coord",
-									"x": 400,
-									"y": 0,
-									"xlock": false,
-									"ylock": false
-								},
-								"Q": false,
-								"type": "corner",
-								"useh1": false,
-								"useh2": false
-							},
-							{
-								"objtype": "pathpoint",
-								"P": {
-									"objtype": "coord",
-									"x": 400,
 									"y": 200,
 									"xlock": false,
 									"ylock": false
 								},
 								"H1": {
 									"objtype": "coord",
-									"x": 400,
+									"x": 500,
 									"y": 200,
 									"xlock": false,
 									"ylock": false
 								},
 								"H2": {
 									"objtype": "coord",
-									"x": 400,
+									"x": 500,
 									"y": 200,
 									"xlock": false,
 									"ylock": false
@@ -22062,21 +21978,105 @@
 								"objtype": "pathpoint",
 								"P": {
 									"objtype": "coord",
-									"x": 300,
+									"x": 500,
+									"y": 0,
+									"xlock": false,
+									"ylock": false
+								},
+								"H1": {
+									"objtype": "coord",
+									"x": 500,
+									"y": 0,
+									"xlock": false,
+									"ylock": false
+								},
+								"H2": {
+									"objtype": "coord",
+									"x": 500,
+									"y": 0,
+									"xlock": false,
+									"ylock": false
+								},
+								"Q": false,
+								"type": "corner",
+								"useh1": false,
+								"useh2": false
+							},
+							{
+								"objtype": "pathpoint",
+								"P": {
+									"objtype": "coord",
+									"x": 400,
+									"y": 0,
+									"xlock": false,
+									"ylock": false
+								},
+								"H1": {
+									"objtype": "coord",
+									"x": 400,
+									"y": 0,
+									"xlock": false,
+									"ylock": false
+								},
+								"H2": {
+									"objtype": "coord",
+									"x": 400,
+									"y": 0,
+									"xlock": false,
+									"ylock": false
+								},
+								"Q": false,
+								"type": "corner",
+								"useh1": false,
+								"useh2": false
+							},
+							{
+								"objtype": "pathpoint",
+								"P": {
+									"objtype": "coord",
+									"x": 400,
+									"y": 150,
+									"xlock": false,
+									"ylock": false
+								},
+								"H1": {
+									"objtype": "coord",
+									"x": 400,
+									"y": 150,
+									"xlock": false,
+									"ylock": false
+								},
+								"H2": {
+									"objtype": "coord",
+									"x": 400,
+									"y": 150,
+									"xlock": false,
+									"ylock": false
+								},
+								"Q": false,
+								"type": "corner",
+								"useh1": false,
+								"useh2": false
+							},
+							{
+								"objtype": "pathpoint",
+								"P": {
+									"objtype": "coord",
+									"x": 250,
 									"y": 300,
 									"xlock": false,
 									"ylock": false
 								},
 								"H1": {
 									"objtype": "coord",
-									"x": 300,
+									"x": 250,
 									"y": 300,
 									"xlock": false,
 									"ylock": false
 								},
 								"H2": {
 									"objtype": "coord",
-									"x": 300,
+									"x": 250,
 									"y": 300,
 									"xlock": false,
 									"ylock": false
@@ -31696,9 +31696,7 @@
 					"ratiolock": false
 				}
 			],
-			"usedin": [
-				"0x0135"
-			],
+			"usedin": [],
 			"contextglyphs": "",
 			"rotationreferenceshapes": false
 		},
@@ -46119,13 +46117,13 @@
 			"name": "LATIN CAPITAL LETTER D WITH STROKE",
 			"glyphhtml": "&#272;",
 			"isautowide": true,
-			"glyphwidth": 500,
+			"glyphwidth": 600,
 			"leftsidebearing": false,
 			"rightsidebearing": false,
 			"ratiolock": false,
 			"maxes": {
-				"xmax": 500,
-				"xmin": -100,
+				"xmax": 600,
+				"xmin": 0,
 				"ymax": 700,
 				"ymin": 0
 			},
@@ -46134,7 +46132,7 @@
 					"objtype": "componentinstance",
 					"link": "0x0044",
 					"name": "Instance of LATIN CAPITAL LETTER D",
-					"translatex": 0,
+					"translatex": 100,
 					"translatey": 0,
 					"scalew": 0,
 					"scaleh": 0,
@@ -46154,7 +46152,7 @@
 					"objtype": "componentinstance",
 					"link": "0x0335",
 					"name": "Instance of COMBINING SHORT STROKE OVERLAY",
-					"translatex": 250,
+					"translatex": 350,
 					"translatey": 0,
 					"scalew": 0,
 					"scaleh": 0,
@@ -46174,7 +46172,7 @@
 					"objtype": "componentinstance",
 					"link": "com13",
 					"name": "Instance of Stroke",
-					"translatex": -100,
+					"translatex": 0,
 					"translatey": -375,
 					"scalew": 0,
 					"scaleh": 0,
@@ -49157,7 +49155,7 @@
 					"link": "com2",
 					"name": "Instance of Circumflex",
 					"translatex": 300,
-					"translatey": 0,
+					"translatey": -50,
 					"scalew": 0,
 					"scaleh": 0,
 					"flipew": false,
@@ -49190,16 +49188,16 @@
 			"maxes": {
 				"xmax": 600,
 				"xmin": 0,
-				"ymax": 950,
+				"ymax": 700,
 				"ymin": -100
 			},
 			"shapes": [
 				{
 					"objtype": "componentinstance",
-					"link": "0x006A",
-					"name": "Instance of LATIN SMALL LETTER J",
-					"translatex": 0,
-					"translatey": 0,
+					"link": "com2",
+					"name": "Instance of Circumflex",
+					"translatex": 300,
+					"translatey": -250,
 					"scalew": 0,
 					"scaleh": 0,
 					"flipew": false,
@@ -49215,24 +49213,362 @@
 					"visible": true
 				},
 				{
-					"objtype": "componentinstance",
-					"link": "com2",
-					"name": "Instance of Circumflex",
-					"translatex": 300,
-					"translatey": 0,
-					"scalew": 0,
-					"scaleh": 0,
-					"flipew": false,
-					"flipns": false,
-					"reversewinding": false,
-					"rotation": 0,
-					"rotatefirst": false,
+					"objtype": "shape",
+					"name": "Shape 1",
+					"path": {
+						"objtype": "path",
+						"pathpoints": [
+							{
+								"objtype": "pathpoint",
+								"P": {
+									"objtype": "coord",
+									"x": 400,
+									"y": 500,
+									"xlock": false,
+									"ylock": false
+								},
+								"H1": {
+									"objtype": "coord",
+									"x": 400,
+									"y": 500,
+									"xlock": false,
+									"ylock": false
+								},
+								"H2": {
+									"objtype": "coord",
+									"x": 400,
+									"y": 500,
+									"xlock": false,
+									"ylock": false
+								},
+								"Q": false,
+								"type": "symmetric",
+								"useh1": true,
+								"useh2": true
+							},
+							{
+								"objtype": "pathpoint",
+								"P": {
+									"objtype": "coord",
+									"x": 500,
+									"y": 500,
+									"xlock": false,
+									"ylock": false
+								},
+								"H1": {
+									"objtype": "coord",
+									"x": 500,
+									"y": 500,
+									"xlock": false,
+									"ylock": false
+								},
+								"H2": {
+									"objtype": "coord",
+									"x": 500,
+									"y": 500,
+									"xlock": false,
+									"ylock": false
+								},
+								"Q": false,
+								"type": "corner",
+								"useh1": false,
+								"useh2": false
+							},
+							{
+								"objtype": "pathpoint",
+								"P": {
+									"objtype": "coord",
+									"x": 500,
+									"y": 50,
+									"xlock": false,
+									"ylock": false
+								},
+								"H1": {
+									"objtype": "coord",
+									"x": 500,
+									"y": 50,
+									"xlock": false,
+									"ylock": false
+								},
+								"H2": {
+									"objtype": "coord",
+									"x": 500,
+									"y": 50,
+									"xlock": false,
+									"ylock": false
+								},
+								"Q": false,
+								"type": "corner",
+								"useh1": false,
+								"useh2": false
+							},
+							{
+								"objtype": "pathpoint",
+								"P": {
+									"objtype": "coord",
+									"x": 350,
+									"y": -100,
+									"xlock": false,
+									"ylock": false
+								},
+								"H1": {
+									"objtype": "coord",
+									"x": 350,
+									"y": -100,
+									"xlock": false,
+									"ylock": false
+								},
+								"H2": {
+									"objtype": "coord",
+									"x": 350,
+									"y": -100,
+									"xlock": false,
+									"ylock": false
+								},
+								"Q": false,
+								"type": "corner",
+								"useh1": false,
+								"useh2": false
+							},
+							{
+								"objtype": "pathpoint",
+								"P": {
+									"objtype": "coord",
+									"x": 150,
+									"y": -100,
+									"xlock": false,
+									"ylock": false
+								},
+								"H1": {
+									"objtype": "coord",
+									"x": 150,
+									"y": -100,
+									"xlock": false,
+									"ylock": false
+								},
+								"H2": {
+									"objtype": "coord",
+									"x": 150,
+									"y": -100,
+									"xlock": false,
+									"ylock": false
+								},
+								"Q": false,
+								"type": "corner",
+								"useh1": false,
+								"useh2": false
+							},
+							{
+								"objtype": "pathpoint",
+								"P": {
+									"objtype": "coord",
+									"x": 0,
+									"y": 50,
+									"xlock": false,
+									"ylock": false
+								},
+								"H1": {
+									"objtype": "coord",
+									"x": 0,
+									"y": 50,
+									"xlock": false,
+									"ylock": false
+								},
+								"H2": {
+									"objtype": "coord",
+									"x": 0,
+									"y": 50,
+									"xlock": false,
+									"ylock": false
+								},
+								"Q": false,
+								"type": "corner",
+								"useh1": false,
+								"useh2": false
+							},
+							{
+								"objtype": "pathpoint",
+								"P": {
+									"objtype": "coord",
+									"x": 0,
+									"y": 200,
+									"xlock": false,
+									"ylock": false
+								},
+								"H1": {
+									"objtype": "coord",
+									"x": 0,
+									"y": 200,
+									"xlock": false,
+									"ylock": false
+								},
+								"H2": {
+									"objtype": "coord",
+									"x": 0,
+									"y": 200,
+									"xlock": false,
+									"ylock": false
+								},
+								"Q": false,
+								"type": "corner",
+								"useh1": false,
+								"useh2": false
+							},
+							{
+								"objtype": "pathpoint",
+								"P": {
+									"objtype": "coord",
+									"x": 100,
+									"y": 200,
+									"xlock": false,
+									"ylock": false
+								},
+								"H1": {
+									"objtype": "coord",
+									"x": 100,
+									"y": 200,
+									"xlock": false,
+									"ylock": false
+								},
+								"H2": {
+									"objtype": "coord",
+									"x": 100,
+									"y": 200,
+									"xlock": false,
+									"ylock": false
+								},
+								"Q": false,
+								"type": "corner",
+								"useh1": false,
+								"useh2": false
+							},
+							{
+								"objtype": "pathpoint",
+								"P": {
+									"objtype": "coord",
+									"x": 100,
+									"y": 100,
+									"xlock": false,
+									"ylock": false
+								},
+								"H1": {
+									"objtype": "coord",
+									"x": 100,
+									"y": 100,
+									"xlock": false,
+									"ylock": false
+								},
+								"H2": {
+									"objtype": "coord",
+									"x": 100,
+									"y": 100,
+									"xlock": false,
+									"ylock": false
+								},
+								"Q": false,
+								"type": "corner",
+								"useh1": false,
+								"useh2": false
+							},
+							{
+								"objtype": "pathpoint",
+								"P": {
+									"objtype": "coord",
+									"x": 200,
+									"y": 0,
+									"xlock": false,
+									"ylock": false
+								},
+								"H1": {
+									"objtype": "coord",
+									"x": 200,
+									"y": 0,
+									"xlock": false,
+									"ylock": false
+								},
+								"H2": {
+									"objtype": "coord",
+									"x": 200,
+									"y": 0,
+									"xlock": false,
+									"ylock": false
+								},
+								"Q": false,
+								"type": "corner",
+								"useh1": false,
+								"useh2": false
+							},
+							{
+								"objtype": "pathpoint",
+								"P": {
+									"objtype": "coord",
+									"x": 300,
+									"y": 0,
+									"xlock": false,
+									"ylock": false
+								},
+								"H1": {
+									"objtype": "coord",
+									"x": 300,
+									"y": 0,
+									"xlock": false,
+									"ylock": false
+								},
+								"H2": {
+									"objtype": "coord",
+									"x": 300,
+									"y": 0,
+									"xlock": false,
+									"ylock": false
+								},
+								"Q": false,
+								"type": "corner",
+								"useh1": false,
+								"useh2": false
+							},
+							{
+								"objtype": "pathpoint",
+								"P": {
+									"objtype": "coord",
+									"x": 400,
+									"y": 100,
+									"xlock": false,
+									"ylock": false
+								},
+								"H1": {
+									"objtype": "coord",
+									"x": 400,
+									"y": 100,
+									"xlock": false,
+									"ylock": false
+								},
+								"H2": {
+									"objtype": "coord",
+									"x": 400,
+									"y": 100,
+									"xlock": false,
+									"ylock": false
+								},
+								"Q": false,
+								"type": "corner",
+								"useh1": false,
+								"useh2": false
+							}
+						],
+						"winding": -5,
+						"maxes": {
+							"xmax": 500,
+							"xmin": 0,
+							"ymax": 500,
+							"ymin": -100
+						}
+					},
+					"visible": true,
 					"xlock": false,
 					"ylock": false,
 					"wlock": false,
 					"hlock": false,
-					"ratiolock": false,
-					"visible": true
+					"ratiolock": false
 				}
 			],
 			"usedin": [],
@@ -49910,13 +50246,13 @@
 			"name": "LATIN CAPITAL LETTER L WITH STROKE",
 			"glyphhtml": "&#321;",
 			"isautowide": true,
-			"glyphwidth": 450,
+			"glyphwidth": 550,
 			"leftsidebearing": false,
 			"rightsidebearing": false,
 			"ratiolock": false,
 			"maxes": {
-				"xmax": 450,
-				"xmin": -100,
+				"xmax": 550,
+				"xmin": 0,
 				"ymax": 700,
 				"ymin": 0
 			},
@@ -49925,7 +50261,7 @@
 					"objtype": "componentinstance",
 					"link": "0x004C",
 					"name": "Instance of LATIN CAPITAL LETTER L",
-					"translatex": 0,
+					"translatex": 100,
 					"translatey": 0,
 					"scalew": 0,
 					"scaleh": 0,
@@ -49945,7 +50281,7 @@
 					"objtype": "componentinstance",
 					"link": "0x0337",
 					"name": "Instance of COMBINING SHORT SOLIDUS OVERLAY",
-					"translatex": 225,
+					"translatex": 325,
 					"translatey": 0,
 					"scalew": 0,
 					"scaleh": 0,
@@ -49965,7 +50301,7 @@
 					"objtype": "componentinstance",
 					"link": "com13",
 					"name": "Instance of Stroke",
-					"translatex": -100,
+					"translatex": 0,
 					"translatey": -400,
 					"scalew": 0,
 					"scaleh": 0,
@@ -53551,7 +53887,7 @@
 			"maxes": {
 				"xmax": 500,
 				"xmin": 0,
-				"ymax": 925,
+				"ymax": 950,
 				"ymin": 0
 			},
 			"shapes": [
@@ -53580,7 +53916,7 @@
 					"link": "com2",
 					"name": "Instance of Circumflex",
 					"translatex": 100,
-					"translatey": -25,
+					"translatey": 0,
 					"scalew": 0,
 					"scaleh": 0,
 					"flipew": false,
@@ -56448,13 +56784,13 @@
 			"name": "LATIN CAPITAL LETTER ETH",
 			"glyphhtml": "&#208;",
 			"isautowide": true,
-			"glyphwidth": 500,
+			"glyphwidth": 600,
 			"leftsidebearing": false,
 			"rightsidebearing": false,
 			"ratiolock": false,
 			"maxes": {
-				"xmax": 500,
-				"xmin": -100,
+				"xmax": 600,
+				"xmin": 0,
 				"ymax": 700,
 				"ymin": 0
 			},
@@ -56463,7 +56799,7 @@
 					"objtype": "componentinstance",
 					"link": "0x0044",
 					"name": "Instance of LATIN CAPITAL LETTER D",
-					"translatex": 0,
+					"translatex": 100,
 					"translatey": 0,
 					"scalew": 0,
 					"scaleh": 0,
@@ -56483,7 +56819,7 @@
 					"objtype": "componentinstance",
 					"link": "com13",
 					"name": "Instance of Stroke",
-					"translatex": -100,
+					"translatex": 0,
 					"translatey": -375,
 					"scalew": 0,
 					"scaleh": 0,
@@ -62890,21 +63226,21 @@
 								"objtype": "pathpoint",
 								"P": {
 									"objtype": "coord",
-									"x": 450,
+									"x": 500,
 									"y": 700,
 									"xlock": false,
 									"ylock": false
 								},
 								"H1": {
 									"objtype": "coord",
-									"x": 450,
+									"x": 500,
 									"y": 700,
 									"xlock": false,
 									"ylock": false
 								},
 								"H2": {
 									"objtype": "coord",
-									"x": 450,
+									"x": 500,
 									"y": 700,
 									"xlock": false,
 									"ylock": false
@@ -62918,21 +63254,21 @@
 								"objtype": "pathpoint",
 								"P": {
 									"objtype": "coord",
-									"x": 450,
+									"x": 500,
 									"y": 600,
 									"xlock": false,
 									"ylock": false
 								},
 								"H1": {
 									"objtype": "coord",
-									"x": 450,
+									"x": 500,
 									"y": 600,
 									"xlock": false,
 									"ylock": false
 								},
 								"H2": {
 									"objtype": "coord",
-									"x": 450,
+									"x": 500,
 									"y": 600,
 									"xlock": false,
 									"ylock": false
@@ -77273,7 +77609,8 @@
 				"0x0119",
 				"0x015F",
 				"0x0153",
-				"0x00F8"
+				"0x00F8",
+				"0x0111"
 			],
 			"value": 150
 		},
@@ -77334,7 +77671,10 @@
 			"objtype": "hkern",
 			"leftgroup": [
 				"0x0076",
-				"0x0056"
+				"0x0056",
+				"0x0126",
+				"0x0142",
+				"0x0111"
 			],
 			"rightgroup": [
 				"0x002E",
@@ -77537,7 +77877,11 @@
 				"0x0071",
 				"0x002D",
 				"0x00F7",
-				"0x0142"
+				"0x0142",
+				"0x0141",
+				"0x0110",
+				"0x00D0",
+				"0x0111"
 			],
 			"value": 50
 		},
@@ -77581,7 +77925,13 @@
 				"0x00DD",
 				"0x0176",
 				"0x0178",
-				"0x00F7"
+				"0x00F7",
+				"0x0126",
+				"0x0127",
+				"0x0141",
+				"0x0142",
+				"0x0110",
+				"0x00D0"
 			],
 			"value": 50
 		},
@@ -77660,7 +78010,9 @@
 			"rightgroup": [
 				"0x00EC",
 				"0x00EF",
-				"0x00EE"
+				"0x00EE",
+				"0x0126",
+				"0x0127"
 			],
 			"value": 50
 		},
