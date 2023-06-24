@@ -7,6 +7,8 @@
 
 Two versions of the font currently exist: GeoFont, and GeoFont Edge. The original version looks the most like Mojangles, while Edge has a more futuristic/cyber feel to it. OpenFont files are availible for both, as well as Glyphr Studio project files for easy editing.
 
+![Accent Character Preview](./GeoFont-Accent-Preview.png)
+
 ## Usage
 
 This font is under the [OFL (Open Font License)](https://github.com/Xetheon/GeoFont/blob/main/LICENSE). You are free to modify/use it in personal or commercial projects, and while you don't have to give credit, it's highly apreciated!
